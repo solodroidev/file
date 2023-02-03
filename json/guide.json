@@ -205,39 +205,15 @@
   "more_apps": [
     {
       "id": 1,
-      "title": "Android News App",
-      "image": "https://play-lh.googleusercontent.com/eKJPha96I1bf-5N1t_5AGCfgDem6Mhd_Zx0Mqd99VctURQNZWOrT4PGLwnnA0IwAOA=w240-h480-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.solodroid.newsappdemo"
+      "title": "Guide Json",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/thumbnail.png",
+      "url": "https://aliendro.id/solodroid-guide-json-android-news-app-191"
     },
     {
       "id": 2,
-      "title": "Material Wallpaper",
-      "image": "https://play-lh.googleusercontent.com/3T-dy3DXh97Z3bIdo-gGmmkFrEahaAliUWVqBx3yxTaQ53k2IGU1X8NBMd9BXbHsGOER=w240-h480-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.solodroid.solowallpaper"
-    },
-    {
-      "id": 3,
-      "title": "Your Videos Channel",
-      "image": "https://play-lh.googleusercontent.com/bvAffce04aejSuP0nsAz6bJ4x98s6MUlR3lLZ3k_HLcB-UVdgC6Vk6Rsi3g2ibDkGA=w240-h480-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.solodroid.solovid"
-    },
-    {
-      "id": 4,
-      "title": "Your Radio App",
-      "image": "https://play-lh.googleusercontent.com/UxqrpJdOfz6DtSZqM_WLTV589-1DNVc9AnTIF1NAHHKbKJJ7wA4TJmtNJljv7kNUrA=w240-h480-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.solodroid.yourradioappdemo"
-    },
-    {
-      "id": 5,
-      "title": "WebDroid",
-      "image": "https://play-lh.googleusercontent.com/TyntUvov68ugQJBue7uSuodDhNfV-Li_k7v_xx_CWJ4SXAVvd8QVRNPjBoDqo9R2X8A=w240-h480-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.solodroid.webdroid"
-    },
-    {
-      "id": 6,
-      "title": "Blogger News App",
-      "image": "https://play-lh.googleusercontent.com/urfXGfBHxNELMoDnAXE7fNbubBAk4cikHsrhFOnWs2pxoNP0a1BqdDCjzVbVQdEqug=w240-h480-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.solodroid.bloggernewsapp"
+      "title": "Stream Json",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/stream/thumbnail.png",
+      "url": "https://aliendro.id/solodroid-stream-json-live-tv-video-streaming-197"
     }
   ]
 }
