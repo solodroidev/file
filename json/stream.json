@@ -4,13 +4,14 @@
       "status": 1,
       "redirect_url": "",
       "privacy_policy_url": "https://sites.google.com/view/solodroid-stream-privacy-policy",
-	  "email_feedback_and_report": "report.solodroid@gmail.com",
+      "email_feedback_and_report": "report.solodroid@gmail.com",
       "show_related_channels": true,
       "enable_rtl_mode": false,
       "enable_exit_dialog": true,
       "enable_app_protection": false,
-	  "enable_dark_mode_as_default_theme": false,
-	  "landscape_mode_as_default_player_orientation": false,
+      "enable_vpn_access": false,
+      "enable_dark_mode_as_default_theme": false,
+      "landscape_mode_as_default_player_orientation": false,
       "youtube_api_key": "AIzaSyCbehD6DCeDZHaGlXXXXXXXXXXXXXXXXX",
       "base64_license_key": ""
     }
@@ -105,7 +106,7 @@
       "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/stream/channel/sctv.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dicet pro me ipsa virtus nec dubitabit isti vestro beato M. Effluit igitur voluptas corporis et prima quaeque avolat saepiusque relinquit causam paenitendi quam recordandi. Duo Reges: constructio interrete.",
       "streaming_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/videos/stream/sctv.mp4",
-	  "user_agent": "test"
+	  "user_agent": ""
     },
 	{
       "id": 2,
