@@ -51,7 +51,7 @@
       "native_ad_interval_grid3": 10,
       "native_ad_style": "medium",
       "show_banner_ad_home": false,
-      "show_banner_ad_wallpaper_details": false,
+      "show_banner_ad_wallpaper_details": true,
       "show_banner_ad_category_details": true,
       "show_banner_ad_search": true,
       "show_interstitial_ad_wallpaper_list": true,
