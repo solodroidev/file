@@ -1,106 +1,106 @@
 {
-	"apps": [
-		{
-			"status": 1,
-			"redirect_url": "",
-			"privacy_policy_url": "https://sites.google.com/view/webdroid-privacy-policy",
-			"user_agent": "",
-			"navigation_drawer": true,
-			"geolocation": true,
-			"webview_cache": false,
-			"open_link_in_external_browser": false,
-			"enable_rtl_mode": false,
-	        "enable_exit_dialog": true,
-	        "enable_vpn_access": false,
-	        "enable_dark_mode_as_default_theme": false,
-	        "enable_app_protection": false,
-	        "base64_license_key": ""
-		}
-	],	
-	"menus": [
-		{
-			"name": "Home",
-			"type": "url",
-			"icon": "https://www.solodroid.net/demo/webdroid/images/ic_home.png",
-			"url": "https://www.solodroid.net/demo/webdroid/pages/dashboard.html",
-			"url_dark": "https://www.solodroid.net/demo/webdroid/pages/dashboard_dark.html",
-			"toolbar": true
-		},
-		{
-			"name": "Aliendroid",
-			"type": "url",
-			"icon": "https://www.solodroid.net/demo/webdroid/images/ic_portfolio.png",
-			"url": "https://www.solodroid.net/demo/webdroid/pages/portfolio.html",
-			"url_dark": "https://www.solodroid.net/demo/webdroid/pages/portfolio_dark.html",
-			"toolbar": false
-		},
-		{
-			"name": "EasyApk",
-			"type": "url",
-			"icon": "https://www.solodroid.net/demo/webdroid/images/ic_testimonials.png",
-			"url": "https://www.solodroid.net/demo/webdroid/pages/testimonials.html",
-			"url_dark": "https://www.solodroid.net/demo/webdroid/pages/testimonials_dark.html",
-			"toolbar": false
-		},
-		{
-			"name": "Privacy Policy",
-			"type": "assets",
-			"icon": "https://www.solodroid.net/demo/webdroid/images/ic_privacy.png",
-			"url": "privacy_policy.html",
-			"url_dark": "privacy_policy_dark.html",
-			"toolbar": true
-		}
-	],
-	"ads": [
-		{
-			"ad_status": 1,
-			"main_ad": "google_ad_manager",
-			"backup_ad": "none",
-			"admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
-			"admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
-			"admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
-			"admob_app_open_unit_id": "ca-app-pub-3940256099942544/3419835294",
-			"ad_manager_banner_unit_id": "/6499/example/banner",
-			"ad_manager_interstitial_unit_id": "/6499/example/interstitial",
-			"ad_manager_native_unit_id": "/6499/example/native",
-			"ad_manager_app_open_unit_id": "/6499/example/app-open",
-			"fan_banner_unit_id": "IMG_16_9_APP_INSTALL#1102290040176998_1102321626840506",
-			"fan_interstitial_unit_id": "IMG_16_9_APP_INSTALL#1102290040176998_1103218190084183",
-			"fan_native_unit_id": "IMG_16_9_APP_INSTALL#1102290040176998_1142394442833224",
-			"startapp_app_id": "0",
-			"unity_game_id": "4089993",
-			"unity_banner_placement_id": "banner",
-			"unity_interstitial_placement_id": "video",
-			"applovin_banner_unit_id": "0",
-			"applovin_interstitial_unit_id": "0",
-			"applovin_native_manual_unit_id": "0",
-			"applovin_open_ad_unit_id": "0",
-			"applovin_banner_zone_id": "0",
-			"applovin_interstitial_zone_id": "0",
-			"ironsource_app_key": "85460dcd",
-			"ironsource_banner_id": "DefaultBanner",
-			"ironsource_interstitial_id": "DefaultInterstitial",
-			"interstitial_ad_interval": 3,
-			"native_ad_style": "medium",
-			"show_banner_ad": true,
-			"show_interstitial_ad": true,
-			"show_native_ad": true,
-			"show_open_ad_on_app_start": true,
-			"show_open_ad_on_app_resume": true
-		}
-	],
-	"more_apps": [
-		{
-		  "id": 1,
-		  "title": "Guide Json",
-		  "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/thumbnail.png",
-		  "url": "https://aliendro.id/solodroid-guide-json-android-news-app-191"
-		},
-		{
-		  "id": 2,
-		  "title": "Stream Json",
-		  "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/stream/thumbnail.png",
-		  "url": "https://aliendro.id/solodroid-stream-json-live-tv-video-streaming-197"
-		}
+  "apps": [
+    {
+      "status": 1,
+      "redirect_url": "",
+      "privacy_policy_url": "https://sites.google.com/view/webdroid-privacy-policy",
+      "user_agent": "",
+      "navigation_drawer": true,
+      "geolocation": true,
+      "webview_cache": false,
+      "open_link_in_external_browser": false,
+      "enable_rtl_mode": false,
+      "enable_exit_dialog": true,
+      "enable_vpn_access": false,
+      "enable_dark_mode_as_default_theme": false,
+      "enable_app_protection": false,
+      "base64_license_key": ""
+    }
+  ],
+  "menus": [
+    {
+      "name": "Home",
+      "type": "url",
+      "icon": "https://www.solodroid.net/demo/webdroid/images/ic_home.png",
+      "url": "https://raw.githack.com/solodroidev/content/uploads/html/webview/light/home.html",
+      "url_dark": "https://raw.githack.com/solodroidev/content/uploads/html/webview/dark/home.html",
+      "toolbar": true
+    },
+    {
+      "name": "Aliendroid",
+      "type": "url",
+      "icon": "https://www.solodroid.net/demo/webdroid/images/ic_portfolio.png",
+      "url": "https://www.solodroid.net/demo/webdroid/pages/portfolio.html",
+      "url_dark": "https://www.solodroid.net/demo/webdroid/pages/portfolio_dark.html",
+      "toolbar": true
+    },
+    {
+      "name": "EasyApk",
+      "type": "url",
+      "icon": "https://www.solodroid.net/demo/webdroid/images/ic_testimonials.png",
+      "url": "https://www.solodroid.net/demo/webdroid/pages/testimonials.html",
+      "url_dark": "https://www.solodroid.net/demo/webdroid/pages/testimonials_dark.html",
+      "toolbar": true
+    },
+    {
+      "name": "Privacy Policy",
+      "type": "assets",
+      "icon": "https://www.solodroid.net/demo/webdroid/images/ic_privacy.png",
+      "url": "privacy_policy.html",
+      "url_dark": "privacy_policy_dark.html",
+      "toolbar": true
+    }
+  ],
+  "ads": [
+    {
+      "ad_status": 1,
+      "main_ad": "google_ad_manager",
+      "backup_ad": "none",
+      "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
+      "admob_app_open_unit_id": "ca-app-pub-3940256099942544/3419835294",
+      "ad_manager_banner_unit_id": "/6499/example/banner",
+      "ad_manager_interstitial_unit_id": "/6499/example/interstitial",
+      "ad_manager_native_unit_id": "/6499/example/native",
+      "ad_manager_app_open_unit_id": "/6499/example/app-open",
+      "fan_banner_unit_id": "IMG_16_9_APP_INSTALL#1102290040176998_1102321626840506",
+      "fan_interstitial_unit_id": "IMG_16_9_APP_INSTALL#1102290040176998_1103218190084183",
+      "fan_native_unit_id": "IMG_16_9_APP_INSTALL#1102290040176998_1142394442833224",
+      "startapp_app_id": "0",
+      "unity_game_id": "4089993",
+      "unity_banner_placement_id": "banner",
+      "unity_interstitial_placement_id": "video",
+      "applovin_banner_unit_id": "0",
+      "applovin_interstitial_unit_id": "0",
+      "applovin_native_manual_unit_id": "0",
+      "applovin_open_ad_unit_id": "0",
+      "applovin_banner_zone_id": "0",
+      "applovin_interstitial_zone_id": "0",
+      "ironsource_app_key": "85460dcd",
+      "ironsource_banner_id": "DefaultBanner",
+      "ironsource_interstitial_id": "DefaultInterstitial",
+      "interstitial_ad_interval": 3,
+      "native_ad_style": "medium",
+      "show_banner_ad": true,
+      "show_interstitial_ad": true,
+      "show_native_ad": true,
+      "show_open_ad_on_app_start": true,
+      "show_open_ad_on_app_resume": true
+    }
+  ],
+  "more_apps": [
+    {
+      "id": 1,
+      "title": "Guide Json",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/thumbnail.png",
+      "url": "https://aliendro.id/solodroid-guide-json-android-news-app-191"
+    },
+    {
+      "id": 2,
+      "title": "Stream Json",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/stream/thumbnail.png",
+      "url": "https://aliendro.id/solodroid-stream-json-live-tv-video-streaming-197"
+    }
   ]
 }
