@@ -3,9 +3,10 @@
     {
       "status": 1,
       "redirect_url": "",
-      "privacy_policy_url": "https://sites.google.com/view/webdroid-privacy-policy",
+      "privacy_policy_url": "https://htmlpreview.github.io/?raw.githubusercontent.com/solodroidev/content/uploads/privacy/webview.html",
       "user_agent": "",
       "navigation_drawer": true,
+			"navigation_icon_solid_color": true,
       "geolocation": false,
       "webview_cache": false,
       "open_link_in_external_browser": false,
@@ -22,8 +23,8 @@
       "name": "Home",
       "type": "url",
       "icon": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/icons/solodroid.png",
-      "url": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/solodroidev/content/uploads/html/webview/light/home.html",
-      "url_dark": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/solodroidev/content/uploads/html/webview/dark/home.html",
+      "url": "https://htmlpreview.github.io/?raw.githubusercontent.com/solodroidev/content/uploads/html/webview/light/home.html",
+      "url_dark": "https://htmlpreview.github.io/?raw.githubusercontent.com/solodroidev/content/uploads/html/webview/dark/home.html",
       "toolbar": true
     },
     {
