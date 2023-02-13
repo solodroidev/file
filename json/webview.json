@@ -85,7 +85,8 @@
       "native_ad_style": "medium",
       "show_banner_ad": true,
       "show_interstitial_ad": true,
-      "show_native_ad": true,
+			"show_native_ad_on_drawer_menu": true,
+			"show_native_ad_on_exit_dialog": true,
       "show_open_ad_on_app_start": true,
       "show_open_ad_on_app_resume": true
     }
