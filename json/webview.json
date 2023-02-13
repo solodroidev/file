@@ -50,7 +50,47 @@
       "url": "privacy_policy.html",
       "url_dark": "privacy_policy_dark.html",
       "toolbar": true
-    }
+    },
+    {
+      "name": "Home",
+      "type": "url",
+      "icon": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/icons/solodroid.png",
+      "url": "https://htmlpreview.github.io/?raw.githubusercontent.com/solodroidev/content/uploads/html/webview/light/home.html",
+      "url_dark": "https://htmlpreview.github.io/?raw.githubusercontent.com/solodroidev/content/uploads/html/webview/dark/home.html",
+      "toolbar": true
+    },
+    {
+      "name": "Aliendroid",
+      "type": "url",
+      "icon": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/icons/aliendroid.png",
+      "url": "https://aliendro.id/profile/solodroid",
+      "url_dark": "",
+      "toolbar": true
+    },
+    {
+      "name": "EasyApk",
+      "type": "url",
+      "icon": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/icons/easyapk.png",
+      "url": "https://easyapk.id",
+      "url_dark": "",
+      "toolbar": true
+    },
+    {
+      "name": "Privacy Policy",
+      "type": "assets",
+      "icon": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/icons/privacy.png",
+      "url": "privacy_policy.html",
+      "url_dark": "privacy_policy_dark.html",
+      "toolbar": true
+    },
+    {
+      "name": "Privacy Policy",
+      "type": "assets",
+      "icon": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/icons/privacy.png",
+      "url": "privacy_policy.html",
+      "url_dark": "privacy_policy_dark.html",
+      "toolbar": true
+    }	  
   ],
   "ads": [
     {
