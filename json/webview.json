@@ -42,15 +42,7 @@
       "url": "https://easyapk.id",
       "url_dark": "",
       "toolbar": true
-    },
-    {
-      "name": "Youtube",
-      "type": "url",
-      "icon": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/icons/easyapk.png",
-      "url": "https://youtube.com",
-      "url_dark": "",
-      "toolbar": true
-    },	  
+    },  
     {
       "name": "Privacy Policy",
       "type": "assets",
