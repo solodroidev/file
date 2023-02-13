@@ -43,6 +43,7 @@
       "url_dark": "",
       "toolbar": true
     },
+    {
       "name": "Youtube",
       "type": "url",
       "icon": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/icons/easyapk.png",
