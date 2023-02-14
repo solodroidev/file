@@ -3,8 +3,8 @@
     {
       "status": 1,
       "redirect_url": "",
-      "privacy_policy_url": "https://sites.google.com/view/solodroid-guide-privacy-policy",
-	  "email_feedback_and_report": "report.solodroid@gmail.com",
+      "privacy_policy_url": "https://htmlpreview.github.io/?raw.githubusercontent.com/solodroidev/content/uploads/privacy/guide.html",
+      "email_feedback_and_report": "report.solodroid@gmail.com",
       "webview_cache": true,
       "post_list_in_large_style": false,
       "show_post_list_header": true,
@@ -69,47 +69,47 @@
     {
       "id": 1,
       "name": "Apps",
-      "image": "https://i.ibb.co/nMr4v7m/ic-apps.png"
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/apps.png"
     },
     {
       "id": 2,
       "name": "Game",
-      "image": "https://i.ibb.co/SBfh4dk/ic-game.png"
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/game.png"
     },
     {
       "id": 3,
       "name": "OS",
-      "image": "https://i.ibb.co/Y3VMPsf/ic-os.png"
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/os.png"
     },
     {
       "id": 4,
       "name": "Coding",
-      "image": "https://i.ibb.co/0mNP5x3/ic-programming.png"
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/programming.png"
     },
     {
       "id": 5,
       "name": "Mods",
-      "image": "https://i.ibb.co/D5bjVkh/ic-modding.png"
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/mods.png"
     },
     {
       "id": 6,
       "name": "How To",
-      "image": "https://i.ibb.co/X2RFJc6/ic-how-to.png"
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/how-to.png"
     },
     {
       "id": 7,
       "name": "Tips & Trick",
-      "image": "https://i.ibb.co/Htd3CTp/ic-tips-trick.png"
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/tips-trick.png"
     },
     {
       "id": 8,
       "name": "Lifestyle",
-      "image": "https://i.ibb.co/gwQGc7d/ic-lifestyle.png"
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/lifestyle.png"
     },
 	{
       "id": 9,
       "name": "Android",
-      "image": "https://i.ibb.co/bWdXnCy/ic-android.png"
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/android.png"
     }
   ],
   "posts": [
@@ -117,8 +117,8 @@
       "id": 1,
       "category": "Game, Tips & Trick",
       "title": "Free Fire: Top 10 best M1014 gun skins in the game",
-      "image": "https://www.memuplay.com/blog/wp-content/uploads/2022/06/Garena-Free-Fire-quest-ce-que-cest-pourquoi-a-t-il-ete.jpg",
-      "content": "https://firebasestorage.googleapis.com/v0/b/solodroid-projects.appspot.com/o/guide%2Ffree-fire-top-10-best-m1014-gun-skins-in-the-game.html?alt=media&token=b2934876-c15a-485b-a573-dc23e55b0ffb",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/free-fire.jpg",
+      "content": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/free-fire.html",
       "video": ""
     },
 	{
@@ -133,39 +133,39 @@
       "id": 3,
       "category": "Coding, Apps",
       "title": "Object Oriented Programming Breakdown for Beginners",
-      "image": "https://149695847.v2.pressablecdn.com/wp-content/uploads/2021/04/photo-1515879218367-8466d910aaa4-scaled.jpg",
-      "content": "https://firebasestorage.googleapis.com/v0/b/solodroid-projects.appspot.com/o/guide%2Fobject-oriented-programming-breakdown-for-beginners.html?alt=media&token=43b4d861-532a-4708-9f7a-d8f807acd5b9",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/programming.jpg",
+      "content": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/programming.html",
       "video": ""
     },
     {
       "id": 4,
       "category": "Game",
       "title": "Mobile Legends on PC Bruno Guide: Best Build, Emblem and Gameplay Tips",
-      "image": "https://www.memuplay.com/blog/wp-content/uploads/2021/12/maxresdefault-1-320x180.jpg",
-      "content": "https://firebasestorage.googleapis.com/v0/b/solodroid-projects.appspot.com/o/guide%2Fmobile-legends-on-pc-bruno-guide-best-build-emblem-and-gameplay-tips.html?alt=media&token=10a21965-f712-48b9-a88d-940ddd969a0f",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/mobile-legends.jpg",
+      "content": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/mobile-legends.html",
       "video": ""
     },
     {
       "id": 5,
       "category": "Game",
       "title": "PUBG New State on PC: Global launch time based on your country",
-      "image": "https://www.memuplay.com/blog/wp-content/uploads/2021/11/pubg_new_state-320x180.jpg",
-      "content": "https://firebasestorage.googleapis.com/v0/b/solodroid-projects.appspot.com/o/guide%2Fpubg-new-state-on-pc-global-launch-time-based-on-your-country.html?alt=media&token=3f3e398d-672a-4c68-80aa-7427342527bd",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/pubg.jpg",
+      "content": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/pubg.html",
       "video": ""
     },
     {
       "id": 6,
       "category": "Tips & Trick",
       "title": "Awaken: Chaos Era: The complete Reroll guide and tips",
-      "image": "https://www.memuplay.com/blog/wp-content/uploads/2022/01/FYNG1F_8ZLA8VQJBE_0H.png",
-      "content": "https://firebasestorage.googleapis.com/v0/b/solodroid-projects.appspot.com/o/guide%2Fawaken-chaos-era-the-complete-reroll-guide-and-tips.html?alt=media&token=d7d52cba-9790-4343-a7bb-f7c542cf572a",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/chaos-era.jpg",
+      "content": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/chaos-era.html",
       "video": ""
     },
 	{
       "id": 7,
       "category": "OS, Apps",
       "title": "How to build your own custom Android ROM",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2016/10/Android-Open-Source-Project-AOSP-mashup-logo-840w-472h.jpg.webp",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/android.jpg",
       "content": "file:///android_asset/how-to-build-your-own-custom-android-rom.html",
       "video": ""
     },
@@ -173,16 +173,16 @@
       "id": 8,
       "category": "Apps",
       "title": "How to hide your iPhone photos in iOS 16",
-      "image": "https://cdn.mos.cms.futurecdn.net/RW5ZgNH4BEKYRDGtoihwND-970-80.jpg.webp",
-      "content": "https://firebasestorage.googleapis.com/v0/b/solodroid-projects.appspot.com/o/guide%2Fhow-to-hide-your-iphone-photos-in-ios-16.html?alt=media&token=c10422cd-7c39-4243-b458-efaee85d1a54",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/ios.jpg",
+      "content": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/ios.html",
       "video": ""
     },
     {
       "id": 9,
       "category": "Mods",
       "title": "The Witcher 3 Complete Edition Mods List",
-      "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-witcher-3/b/b8/1021-1563581150-7199639.png",
-      "content": "https://firebasestorage.googleapis.com/v0/b/solodroid-projects.appspot.com/o/guide%2Fthe-witcher-3-complete-edition-mods-list.html?alt=media&token=0b78db4d-9558-4f28-bba4-96cfd54ae3bc",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/the-witcher.jpg",
+      "content": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/the-witcher.html",
       "video": ""
     },
     {
@@ -197,8 +197,8 @@
       "id": 11,
       "category": "Lifestyle",
       "title": "Your Step-by-Step Guide to Filling Out a Money Order",
-      "image": "https://www.nerdwallet.com/assets/blog/wp-content/uploads/2018/04/19Q2_BK_money-orders-step-by-step_featured_1540x924.jpg",
-      "content": "https://firebasestorage.googleapis.com/v0/b/solodroid-projects.appspot.com/o/guide%2Fyour-step-by-step-guide-to-filling-out-a-money-order.html?alt=media&token=a76d5fa3-f36f-4168-b975-314f947e11b6",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/money-order.jpg",
+      "content": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/money-order.html",
       "video": ""
     }
   ],
@@ -214,6 +214,12 @@
       "title": "Stream Json",
       "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/stream/thumbnail.png",
       "url": "https://aliendro.id/solodroid-stream-json-live-tv-video-streaming-197"
+    },
+    {
+      "id": 3,
+      "title": "WebView Json",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/thumbnail.png",
+      "url": "https://aliendro.id/solodroid-webview-json-android-webview-app-207"
     }
   ]
 }
