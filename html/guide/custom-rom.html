@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+      body {
+        font-family: 'Poppins';
+		padding:0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <p>One of the key features of Android is that it is open source. The source code for the full operating system, including the kernel, UI, libraries, and key apps, is available for free. This means that anyone (with the right technical skills) can build Android from source and flash it onto a compatible device. This flexibility has allowed various groups &mdash; some commercial and some hobbyist &mdash; to develop alternative distributions of Android. These are commonly referred to as custom ROMs, but a better name would be custom firmware.</p>
+    <p>Since all the necessary building blocks are available, maybe you have wondered how hard it is t</p>
+    <p>o build your own custom ROM, your personalized version of Android! It is indeed possible; read on to find out more.</p>
+    <h2>Warning</h2>
+    <p>Before we dive into the murky world of building custom versions of Android, we need to pause and assess the enormity of the task ahead, while keeping our expectations in check. If you have absolutely no coding experience, zero Linux experience, or no idea what a Makefile is, this isn&rsquo;t for you.</p>
+    <p>Android is a complete operating system. It is complex and contains many different subsystems. Creating an operating system as complex and useful as Android didn&rsquo;t happen overnight. This means that any customization you wish to perform will have to start small. Creating an alternative Android distribution that is radically different will take many hours of hard work and dedication.</p>
+    <p>If you are familiar with writing code and know a bit about Makefiles and compilers, then making your own custom Android ROM can be a rewarding experience.</p>
+    <h2>Prerequisites</h2>
+    <p><img width="100%" height="" alt="AOSP system requirements 2022" src="https://www.androidauthority.com/wp-content/uploads/2016/10/AOSP_system_requirements_2022.jpg" title="AOSP system requirements 2022" /></p>
+    <p><a href="https://source.android.com/setup/build/requirements" rel="noreferrer nofollow" target="_blank">Google</a></p>
+    <p>Theoretically, it would be possible to build a custom Android firmware for any computing device capable of running a modern operating system. However, to make life easy, we will limit ourselves to building Android for Google&rsquo;s Pixel smartphones.</p>
+    <p>To build Android, you will need access to, and familiarity with, Linux. You will be using the terminal a lot, and you need to be confident with shell commands. You might be able to use a Linux virtual machine, but I would recommend using a dedicated PC.</p>
+    <p>You will need at least 400GB of disk space and no less than 16GB of RAM, but 32GB or 64GB is recommended. You will need a modern 64-bit CPU with multiple cores. Google says that it takes about five times longer to build Android on a 6-core machine with 64GB of RAM than to build it on a 72-core machine with a similar RAM. In my testing, I foolishly tried to build it on a dual-core machine with a CPU from 10 years ago. It took about 24 hours!</p>
+    <p>Learn patience. Building Android isn&rsquo;t quick. Synchronizing the source repository can take hours (depending on your Internet connection speed). Also, a full clean build will take several hours to complete. Even after making a minor change, you might need to wait 10 to 20 minutes for a build. It all depends on your hardware. Don&rsquo;t expect to have your new version of Android up and running in just a few moments.</p>
+    <h1>Read More On This Topic</h1>
+    <p><img width="100%" height="" src="https://www.androidauthority.com/wp-content/uploads/2022/02/Samsung-Galaxy-S22-Ultra-color-family-on-wood-500w-260h.jpg" /></p>
+    <p>Where are Samsung phones designed and made? The answer might surprise you</p>
+    <p><img width="100%" height="" src="https://www.androidauthority.com/wp-content/uploads/2022/12/ThinkPhone-500w-260h.jpg" /></p>
+    <p>New leak reveals a Lenovo ThinkPad smartphone</p>
+    <p><img width="100%" height="" src="https://www.androidauthority.com/wp-content/uploads/2022/06/steam-deck-500w-260h.jpeg" /></p>
+    <p>Will Valve make a Steam Deck 2 or a &lsquo;Pro&rsquo; model? Now we know the answer</p>
+    <p>Powered by Playwire</p>
+    <p>The Android Open Source Project version does not include any Google services. So things like Google Play, YouTube, Gmail, and Chrome will be missing. There are ways to flash those &ldquo;gapps&rdquo; onto your custom firmware, but I will leave you to find out how to do that. Hint: Search for &ldquo;install gapps.&rdquo;</p>
+    <h2>Where to start when build your own Android ROM</h2>
+    <p><img width="100%" height="" alt="Pixel 3 XL in hand running AOSP showing home screen" src="https://www.androidauthority.com/wp-content/uploads/2016/10/Pixel-3-XL-in-hand-running-AOSP-showing-home-screen.jpg" title="Pixel 3 XL in hand running AOSP showing home screen" /></p>
+    <p>Gary Sims / Android Authority</p>
+    <p>The basic process for building a custom ROM is this. Download and build Android from the Android Open Source Project, then modify the source code to get your custom version. Simple.</p>
+    <p>Google provides some excellent&nbsp;<a href="https://source.android.com/setup" target="_blank">documentation about building AOSP</a>. You need to read it, re-read it, and then read it again. Don&rsquo;t jump any steps, and don&rsquo;t assume you know what it will say next and skim over parts.</p>
+    <p>I won&rsquo;t repeat verbatim what is in the build instructions, but the general steps are:</p>
+    <ul>
+      <li><strong>Set up a build environment</strong>&nbsp;&mdash; including installing the correct development tools.</li>
+      <li><strong>Grab the source</strong>&nbsp;&mdash; this is done using the &ldquo;Repo&rdquo; tool.</li>
+      <li><strong>Obtain proprietary binaries</strong>&nbsp;&mdash; some of the drivers are only released in binary form.</li>
+      <li><strong>Choose a target</strong>&nbsp;&mdash; using the &ldquo;lunch&rdquo; tool.</li>
+      <li><strong>Start the build</strong>&nbsp;&mdash; using &ldquo;m.&rdquo;</li>
+      <li><strong>Flash the build onto your device</strong>&nbsp;&mdash; using ADB and fastboot.</li>
+    </ul>
+    <h2>Tips and tricks for the custom ROM build process</h2>
+    <p>That all sounds easy, but there are a few gotchas along the way. Here are some notes I made during the process that you might find helpful:</p>
+    <p><strong>Set up a build environment</strong>&nbsp;&mdash; Ubuntu 18.04 is the recommended build OS. You will need to install various development-related packages like gcc, git, python, etc. The master branch of Android in AOSP comes with a pre-built version of OpenJDK, so no additional installation is required. However, older versions of Android require a separate installation of the JDK. You should use OpenJDK. Full instructions on setting up your build environment can be found&nbsp;<a href="https://source.android.com/setup/build/initializing" target="_blank">here</a>.</p>
+    <p><strong>Python3</strong>&nbsp;&mdash; Python 2 support is deprecated. To build AOSP, you need to use Python3. If you get Python missing errors, this trick should fix it. It creates a soft link between&nbsp;<em>python</em>&nbsp;and the&nbsp;<em>python3</em>&nbsp;binary:</p>
+    <p>CODE</p>
+    <p>Copy Text</p>
+    <pre><code>sudo ln -s /usr/bin/python3 /usr/bin/python</code></pre>
+    <p><strong>Grab the source</strong>&nbsp;&mdash; This is an easy step, but it can take a long time, as in hours. Such a large download only happens once; further syncing with the main source tree will be incremental. To speed up the download, use the -c (current branch) flag and the -j<em>threadcount</em>&nbsp;flag like this:</p>
+    <p>CODE</p>
+    <p>Copy Text</p>
+    <pre><code>repo sync -c -j8</code></pre>
+    <p><strong>Obtain proprietary binaries</strong>&nbsp;&mdash; The binaries come as self-extracting scripts. Uncompress the archives and run the self-extracting script from the root of the source tree. The binaries will be installed in the&nbsp;<em>vendor/</em>&nbsp;directory. Note that there are two sets of binaries for many Pixel devices, one from Google and another from Qualcomm. You need both. Make sure you download the version of the binaries that corresponds with the version of AOSP you are building.</p>
+    <p><strong>Choose a target</strong>&nbsp;&mdash; Look at this&nbsp;<a href="https://source.android.com/setup/build/running#selecting-device-build" target="_blank">list of Pixel devices</a>&nbsp;and pick the relevant build name. For example, if you have a Pixel 5, you would use&nbsp;<em>aosp_redfin-userdebug</em>.</p>
+    <p><img width="100%" height="" alt="Pixel 3 XL in hand running AOSP showing custom build number" src="https://www.androidauthority.com/wp-content/uploads/2016/10/Pixel-3-XL-in-hand-running-AOSP-showing-custom-build-number.jpg" title="Pixel 3 XL in hand running AOSP showing custom build number" /></p>
+    <p>Gary Sims / Android Authority</p>
+    <p><strong>Start the build</strong>&nbsp;&mdash; You start the build using&nbsp;<em>m.</em>&nbsp;The build system can run multiple jobs simultaneously with the -j<em>N</em>&nbsp;argument. If you don&rsquo;t use the -j argument, then the build system will automatically select an optimal task count for your system.</p>
+    <p><strong>Flash the build onto your device</strong>&nbsp;&mdash; You will need Google&rsquo;s platform tools to flash your build onto a physical device. You can use the&nbsp;<a href="https://developer.android.com/studio/releases/platform-tools" target="_blank">Android SDK Platform-Tools</a>&nbsp;from Google, or alternatively, you will find&nbsp;<em>adb</em>&nbsp;and&nbsp;<em>fastboot</em>&nbsp;in<em>&nbsp;./out/host/linux-x86/bin.</em></p>
+    <h2>Flash it</h2>
+    <p><img width="100%" height="" alt="aosp fastboot flashall" src="https://www.androidauthority.com/wp-content/uploads/2016/10/aosp-fastboot-flashall.jpg" title="aosp fastboot flashall" /></p>
+    <p>Gary Sims / Android Authority</p>
+    <p>Once you have successfully flashed it onto your device using &ldquo;fastboot flashall -w,&rdquo; you will see a vanilla version of AOSP. There are no Google services, no Play Store, and only a few core apps. This is the bare bones of Android.</p>
+    <p>However, congratulations are in order. You have managed to build Android from its source code and flash it onto a device. That is no mean feat.</p>
+    <p>&nbsp;</p>
+    <p><img width="100%" height="" alt="aosp android 12 screenshot home screen" src="https://www.androidauthority.com/wp-content/uploads/2016/10/aosp_android_12_screenshot_home_screen-scaled.jpg" title="aosp android 12 screenshot home screen" />AOSP home screen<img width="100%" height="" alt="aosp android 12 screenshot preinstalled apps" src="https://www.androidauthority.com/wp-content/uploads/2016/10/aosp_android_12_screenshot_preinstalled_apps-scaled.jpg" title="aosp android 12 screenshot preinstalled apps" />AOSP pre-installed apps<img width="100%" height="" alt="aosp android 12 screenshot pull down shade" src="https://www.androidauthority.com/wp-content/uploads/2016/10/aosp_android_12_screenshot_pull_down_shade-scaled.jpg" title="aosp android 12 screenshot pull down shade" />AOSP pull down shade</p>
+    <h2>Customization</h2>
+    <p>Now that you have Android up and running, you can start to customize it and make your own specialist ROM. This is actually where things get hard. You are about to tinker with the guts of the Android operating system, and the problem is that Android is huge. My working directory is 350+GB of data, including the source code, the graphics, the compiled binaries, and the tools. That is a lot of stuff.</p>
+    <p>So, start simple. Here are two simple customizations that will get you going and start you on the path to being an Android firmware hacker.</p>
+    <h3>Customize the messaging app</h3>
+    <p>A relatively easy customization is to change one of the pre-built apps. If you were to develop a full alternative Android distribution, modifying or replacing some of the core apps would be a given. In this case, we will just tweak it, but the principles remain the same for more complex changes and revisions.</p>
+    <p>The core apps are found in the directory&nbsp;<em>./packages/apps/,&nbsp;</em>and we are interested in the Messaging app in&nbsp;<em>./packages/apps/Messaging/</em>. Drill down through&nbsp;<em>res/values/</em>&nbsp;and edit&nbsp;<em>strings.xml</em>. You can edit it with your favorite GUI editor or if you want to stay on the command line, then use&nbsp;<em>vi</em>&nbsp;or&nbsp;<em>nano</em>.</p>
+    <p><em>strings.xml</em>&nbsp;contains all the English text for the app. If you are using another language, you will need to find the relevant XML file in the&nbsp;<em>res/</em>&nbsp;directory.</p>
+    <p>Find the place in&nbsp;<em>strings.xml</em>&nbsp;where&nbsp;<em>conversation_list_empty_text</em>&nbsp;is defined. The string part starts with &ldquo;Once you start&hellip;&rdquo;. Replace it with your own string, something like, &ldquo;Start a new conversation and you&rsquo;ll see it listed here.&rdquo;</p>
+    <p>Save the file and start another build using the&nbsp;<em>m</em>&nbsp;command. Once the build has finished, flash it onto your device and reboot. Start the Messaging app and look for the new text. Obviously, this is a simple modification, but the potential is there to modify any of the default apps in whatever way you please.</p>
+    <p><img width="100%" height="" alt="aosp android 12 screenshot modified messaging app" src="https://www.androidauthority.com/wp-content/uploads/2016/10/aosp_android_12_screenshot_modified_messaging_app-scaled.jpg" title="aosp android 12 screenshot modified messaging app" /></p>
+    <p>Gary Sims / Android Authority</p>
+    <h3>More customization</h3>
+    <p>Any self-respecting custom Android distribution must include some information about the ROM itself. To do this, we can alter the system properties. Find the&nbsp;<em>sysprop.mk</em>&nbsp;file in the&nbsp;<em>build/core/</em>&nbsp;directory. Edit it and find the line that defines BUILD_DESC. For a simple alteration, put AOSP++ at the beginning of the line after the&nbsp;<em>:=</em>, like this:</p>
+    <p>CODE</p>
+    <p>Copy Text</p>
+    <pre><code>BUILD_DESC := AOSP++ $(TARGET_PRODUCT)-$(TARGET_BUILD_VARIANT) $(PLATFORM_VERSION) $(BUILD_ID) $(BUILD_NUMBER_FROM_FILE) $(BUILD_VERSION_TAGS)</code></pre>
+    <p>Save the file, rebuild and re-flash the firmware on your device. Once you reboot, go to&nbsp;<strong>Settings-&gt;About Phone</strong>&nbsp;and scroll to the bottom:</p>
+    <p><img width="100%" height="" alt="aosp android 12 screenshot custom build number about phone" src="https://www.androidauthority.com/wp-content/uploads/2016/10/aosp_android_12_screenshot_custom_build_number_about_phone-scaled.jpg" title="aosp android 12 screenshot custom build number about phone" /></p>
+  </body>
+</html>
