@@ -1,0 +1,84 @@
+{
+  "android": [
+    {
+      "name": "Astro 1.0 (Alpha)",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/astro.png"
+    },
+    {
+      "name": "Bender 1.1 (Beta)",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/bender.png"
+    },
+    {
+      "name": "Cupcake 1.5",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/cupcake.png"
+    },
+    {
+      "name": "Donut 1.6",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/donut.png"
+    },
+    {
+      "name": "Eclair 2.0 - 2.1",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/eclair.png"
+    },
+    {
+      "name": "Froyo 2.2",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/froyo.png"
+    },
+    {
+      "name": "Gingerbread 2.3",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/gingerbread.png"
+    },
+    {
+      "name": "Honeycomb 3.0 - 3.1",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/honeycomb.png"
+    },
+    {
+      "name": "Ice Cream Sandwich 4.0",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/ics.png"
+    },
+    {
+      "name": "Jelly Bean 4.1 - 4.2",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/jellybean.png"
+    },
+    {
+      "name": "Kitkat 4.4",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/kitkat.png"
+    },
+    {
+      "name": "Lollipop 5.0",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/lollipop.png"
+    },
+    {
+      "name": "Marshmallow 6.0",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/marshmallow.png"
+    },
+    {
+      "name": "Nougat 7.0",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/nougat.png"
+    },
+    {
+      "name": "Oreo 8.0",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/oreo.png"
+    },
+    {
+      "name": "Pie 9.0",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/pie.png"
+    },
+    {
+      "name": "Android 10",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/q10.png"
+    },
+    {
+      "name": "Android 11",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/r11.png"
+    },
+    {
+      "name": "Android 12",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/s12.png"
+    },
+    {
+      "name": "Android 13",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/android/tiramisu.png"
+    }
+  ]
+}
