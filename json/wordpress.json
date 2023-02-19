@@ -16,6 +16,7 @@
       "post_list_in_large_style": false,
       "show_post_list_header": true,
       "show_post_list_excerpt": true,
+      "show_post_list_categories": true,
       "show_post_date": true,
       "show_related_posts": true,
       "enable_exit_dialog": true,
