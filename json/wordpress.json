@@ -126,7 +126,7 @@
       },
       "global": {
          "interstitial_ad_interval": 3,
-         "native_ad_index": 1,
+         "native_ad_index": 2,
          "native_ad_interval": 8,
          "native_ad_style": "medium",
          "native_ad_post_details_position": "top"
