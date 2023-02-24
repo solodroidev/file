@@ -2,7 +2,7 @@
   "apps": [
     {
       "status": 1,
-      "featured_categories": "Nature,Flower,Beach,Space,Sunset,Live",
+      "featured_categories": "Nature,Flower,Live Wallpaper,Beach,Space,Sunset",
       "show_wallpaper_name": true,
       "show_wallpaper_category": true,
       "enable_rtl_mode": false,
@@ -12,13 +12,13 @@
       "enable_app_protection": false,
       "base64_license_key": "",
       "redirect_url": "",
-      "privacy_policy_url": "https://raw.githack.com/solodroidev/content/uploads/privacy/wallpaper.html"
+      "privacy_policy_url": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/solodroidev/content/uploads/privacy/wallpaper.html"
     }
   ],
   "ads": [
     {
       "ad_status": 1,
-      "main_ad": "admob",
+      "main_ad": "google_ad_manager",
       "backup_ad": "none",
       "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
       "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
@@ -95,33 +95,33 @@
     },
     {
       "category_id": 7,
+      "category_name": "Live Wallpaper",
+      "category_image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/category/live.jpg"
+    },
+    {
+      "category_id": 8,
       "category_name": "Beach",
       "category_image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/category/beach.jpg"
     },
     {
-      "category_id": 8,
+      "category_id": 9,
       "category_name": "House",
       "category_image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/category/house.jpg"
     },
     {
-      "category_id": 9,
+      "category_id": 10,
       "category_name": "Space",
       "category_image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/category/space.jpg"
     },
     {
-      "category_id": 10,
+      "category_id": 11,
       "category_name": "Mountain",
       "category_image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/category/mountain.jpg"
     },
     {
-      "category_id": 11,
+      "category_id": 12,
       "category_name": "Road",
       "category_image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/category/road.jpg"
-    },
-    {
-      "category_id": 12,
-      "category_name": "Live",
-      "category_image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/category/live.jpg"
     }
   ],
   "wallpapers": [
@@ -502,6 +502,20 @@
       "wallpaper_name": "Live 3",
       "wallpaper_thumbnail": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/thumbnail/live3.jpg",
       "wallpaper_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/live3.gif"
+    },
+	{
+      "wallpaper_id": 55,
+      "category_name": "Live",
+      "wallpaper_name": "Live 4",
+      "wallpaper_thumbnail": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/thumbnail/live4.jpg",
+      "wallpaper_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/live4.mp4"
+    },
+	{
+      "wallpaper_id": 56,
+      "category_name": "Live",
+      "wallpaper_name": "Live 5",
+      "wallpaper_thumbnail": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/thumbnail/live5.jpg",
+      "wallpaper_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/live5.mp4"
     }
   ],
   "more_apps": [
