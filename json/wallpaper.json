@@ -96,7 +96,7 @@
     {
       "category_id": 7,
       "category_name": "Live Wallpaper",
-      "category_image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/category/live-wallpaper.jpg"
+      "category_image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/category/live.jpg"
     },
     {
       "category_id": 8,
@@ -484,35 +484,35 @@
     },
     {
       "wallpaper_id": 52,
-      "category_name": "Live",
+      "category_name": "Live Wallpaper",
       "wallpaper_name": "Live 1",
       "wallpaper_thumbnail": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/thumbnail/live1.jpg",
       "wallpaper_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/live1.gif"
     },
     {
       "wallpaper_id": 53,
-      "category_name": "Live",
+      "category_name": "Live Wallpaper",
       "wallpaper_name": "Live 2",
       "wallpaper_thumbnail": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/thumbnail/live2.jpg",
       "wallpaper_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/live2.gif"
     },
     {
       "wallpaper_id": 54,
-      "category_name": "Live",
+      "category_name": "Live Wallpaper",
       "wallpaper_name": "Live 3",
       "wallpaper_thumbnail": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/thumbnail/live3.jpg",
       "wallpaper_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/live3.gif"
     },
 	{
       "wallpaper_id": 55,
-      "category_name": "Live",
+      "category_name": "Live Wallpaper",
       "wallpaper_name": "Live 4",
       "wallpaper_thumbnail": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/thumbnail/live4.jpg",
       "wallpaper_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/live4.mp4"
     },
 	{
       "wallpaper_id": 56,
-      "category_name": "Live",
+      "category_name": "Live Wallpaper",
       "wallpaper_name": "Live 5",
       "wallpaper_thumbnail": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/thumbnail/live5.jpg",
       "wallpaper_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/live5.mp4"
