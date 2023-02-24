@@ -3,9 +3,9 @@
     {
       "status": 1,
       "featured_categories": "Nature,Flower,Live Wallpaper,Beach,Space,Sunset",
-      "show_wallpaper_name": true,
-      "show_wallpaper_category": true,
-      "show_favorite_button_in_wallpaper_list": true,
+      "show_wallpaper_name": false,
+      "show_wallpaper_category": false,
+      "show_favorite_button_in_wallpaper_list": false,
       "enable_rtl_mode": false,
       "enable_exit_dialog": true,
       "enable_vpn_access": false,
