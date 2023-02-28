@@ -225,7 +225,7 @@
       "streaming_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/videos/stream/cbsn.mp4",
 	  "user_agent": ""
     },
-	{
+    {
       "id": 15,
       "category": "News, National",
       "title": "CNN Indonesia",
@@ -233,6 +233,15 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dicet pro me ipsa virtus nec dubitabit isti vestro beato M. Effluit igitur voluptas corporis et prima quaeque avolat saepiusque relinquit causam paenitendi quam recordandi. Duo Reges: constructio interrete.",
       "streaming_url": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1705215623_b384000_sleng.m3u8",
 	  "user_agent": ""
+    },
+    {
+      "id": 16,
+      "category": "News, National",
+      "title": "test",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/stream/channel/cnn.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dicet pro me ipsa virtus nec dubitabit isti vestro beato M. Effluit igitur voluptas corporis et prima quaeque avolat saepiusque relinquit causam paenitendi quam recordandi. Duo Reges: constructio interrete.",
+      "streaming_url": "https://pelindung.bandung.go.id:3443/video/DAHUA/Suryamantri.m3u8",
+      "user_agent": ""
     }
   ],
   "more_apps": [
