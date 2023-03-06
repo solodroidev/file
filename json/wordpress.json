@@ -21,6 +21,7 @@
       "show_post_list_categories": true,
       "show_post_date": true,
       "show_related_posts": true,
+      "enable_comment_feature": true,
       "enable_exit_dialog": true,
       "enable_rtl_mode": false,
       "enable_dark_mode_as_default_theme": false
