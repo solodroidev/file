@@ -20,6 +20,7 @@
       "show_post_list_excerpt": true,
       "show_post_list_categories": true,
       "show_post_date": true,
+      "show_post_count_in_category_list": true,
       "show_related_posts": true,
       "enable_comment_feature": true,
       "enable_exit_dialog": true,
