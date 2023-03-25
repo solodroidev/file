@@ -4,10 +4,11 @@
       "redirect_url": ""
    },
    "wordpress": {
-      "site_url": "https://wp-news.solodroid.net/",
-      "rest_api_provider": "wp-v2",
+      "site_url": "https://solodroidnews.wordpress.com/",
+      "rest_api_provider": "jetpack",
       "posts_per_page": 10,
-      "categories_per_page": 20
+      "categories_per_page": 24,
+      "max_related_posts": 5
    },
    "settings": {
       "more_apps_url": "https://play.google.com/store/apps/developer?id=Solodroid",
@@ -18,11 +19,14 @@
       "post_list_in_large_style": false,
       "show_post_list_header": true,
       "show_post_list_excerpt": true,
-      "show_post_list_categories": true,
+      "show_post_list_categories": false,
+      "show_post_list_comment": false,
+      "show_post_list_line_divider": false,
       "show_post_date": true,
       "show_post_count_in_category_list": true,
       "show_related_posts": true,
       "enable_comment_feature": true,
+      "enable_view_on_site_menu": false,
       "enable_exit_dialog": true,
       "enable_rtl_mode": false,
       "enable_dark_mode_as_default_theme": false
@@ -31,47 +35,86 @@
       "status": true,
       "categories": [
          {
-            "name": "Apps",
-            "image": "https://i.ibb.co/nMr4v7m/ic-apps.png"
+            "id": 11,
+            "name": "Business",
+            "image": "https://i.imgur.com/DqQrnm0.png"
          },
          {
-            "name": "Game",
-            "image": "https://i.ibb.co/SBfh4dk/ic-game.png"
+            "id": 14,
+            "name": "Tourism",
+            "image": "https://i.imgur.com/r6Zd7qO.png"
          },
          {
-            "name": "OS",
-            "image": "https://i.ibb.co/Y3VMPsf/ic-os.png"
+            "id": 7,
+            "name": "Politics",
+            "image": "https://i.imgur.com/28DQxFt.png"
          },
          {
-            "name": "Coding",
-            "image": "https://i.ibb.co/0mNP5x3/ic-programming.png"
+            "id": 10,
+            "name": "Food",
+            "image": "https://i.imgur.com/2ngb45h.png"
          },
          {
-            "name": "Mods",
-            "image": "https://i.ibb.co/D5bjVkh/ic-modding.png"
+            "id": 6,
+            "name": "News",
+            "image": "https://i.imgur.com/nyrbj9W.png"
          },
          {
-            "name": "How To",
-            "image": "https://i.ibb.co/X2RFJc6/ic-how-to.png"
+            "id": 15,
+            "name": "World",
+            "image": "https://i.imgur.com/R0bZ4h4.png"
          },
          {
-            "name": "Tips & Trick",
-            "image": "https://i.ibb.co/Htd3CTp/ic-tips-trick.png"
+            "id": 4,
+            "name": "Sports",
+            "image": "https://i.imgur.com/83Bt9Mb.png"
          },
          {
-            "name": "Lifestyle",
-            "image": "https://i.ibb.co/gwQGc7d/ic-lifestyle.png"
+            "id": 8,
+            "name": "Football",
+            "image": "https://i.imgur.com/NqT55yX.png"
          },
          {
+            "id": 5,
+            "name": "Technology",
+            "image": "https://i.imgur.com/f1EHhy6.png"
+         },
+         {
+            "id": 17,
             "name": "Android",
-            "image": "https://i.ibb.co/bWdXnCy/ic-android.png"
+            "image": "https://i.imgur.com/qw9drQQ.png"
+         },
+         {
+            "id": 3,
+            "name": "Health",
+            "image": "https://i.imgur.com/ljK9HqE.png"
+         },
+         {
+            "id": 12,
+            "name": "Finance",
+            "image": "https://i.imgur.com/hGOweXN.png"
+         },
+         {
+            "id": 16,
+            "name": "Entertainment",
+            "image": "https://i.imgur.com/I7O2nLm.png"
+         },
+         {
+            "id": 9,
+            "name": "Gadget",
+            "image": "https://i.imgur.com/ddCegPU.png"
+         },
+         {
+            "id": 13,
+            "name": "Travel",
+            "image": "https://i.imgur.com/GHWmjZL.png"
          }
       ]
    },
    "ads": {
       "status": true,
       "main_ads": "admob",
-      "backup_ads": "google_ad_manager",
+      "backup_ads": "none",
       "ads_unit_id": {
          "admob": {
             "publisher_id": "pub-3940256099942544",
@@ -114,11 +157,18 @@
             "app_key": "85460dcd",
             "banner_id": "DefaultBanner",
             "interstitial_id": "DefaultInterstitial"
+         },
+         "wortise": {
+            "app_id": "test-app-id",
+            "app_open_id": "test-app-open",
+            "banner_id": "test-banner",
+            "interstitial_id": "test-interstitial",
+            "native_id": "test-native"
          }
       },
       "placement": {
-         "banner_home": false,
-         "banner_post_details": false,
+         "banner_home": true,
+         "banner_post_details": true,
          "banner_category_details": true,
          "banner_search": true,
          "interstitial_post_list": true,
@@ -132,8 +182,9 @@
          "interstitial_ad_interval": 3,
          "native_ad_index": 2,
          "native_ad_interval": 8,
-         "native_ad_style": "medium",
-         "native_ad_post_details_position": "top"
+         "native_ad_style_post_list": "medium",
+         "native_ad_style_post_details": "large",
+         "native_ad_post_details_position": "bottom"
       }
    }
 }
