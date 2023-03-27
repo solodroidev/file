@@ -4,7 +4,7 @@
       "redirect_url": ""
    },
    "wordpress": {
-      "site_url": "https://solodroidnews.wordpress.com/",
+      "site_url": "https://wp-news.solodroid.net/",
       "rest_api_provider": "jetpack",
       "posts_per_page": 10,
       "categories_per_page": 24,
@@ -20,13 +20,13 @@
       "show_post_list_header": true,
       "show_post_list_excerpt": true,
       "show_post_list_categories": false,
-      "show_post_list_comment": false,
+      "show_post_list_comment": true,
       "show_post_list_line_divider": false,
       "show_post_date": true,
       "show_post_count_in_category_list": true,
       "show_related_posts": true,
       "enable_comment_feature": true,
-      "enable_view_on_site_menu": false,
+      "enable_view_on_site_menu": true,
       "enable_exit_dialog": true,
       "enable_rtl_mode": false,
       "enable_dark_mode_as_default_theme": false
@@ -114,7 +114,7 @@
    "ads": {
       "status": true,
       "main_ads": "admob",
-      "backup_ads": "none",
+      "backup_ads": "google_ad_manager",
       "ads_unit_id": {
          "admob": {
             "publisher_id": "pub-3940256099942544",
@@ -180,8 +180,7 @@
       },
       "global": {
          "interstitial_ad_interval": 3,
-         "native_ad_index": 2,
-         "native_ad_interval": 8,
+         "native_ad_index": 3,
          "native_ad_style_post_list": "medium",
          "native_ad_style_post_details": "large",
          "native_ad_post_details_position": "bottom"
