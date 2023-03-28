@@ -20,16 +20,17 @@
       "show_post_list_header": true,
       "show_post_list_excerpt": true,
       "show_post_list_categories": false,
-      "show_post_list_comment": true,
+      "show_post_list_comment": false,
       "show_post_list_line_divider": false,
       "show_post_date": true,
-      "show_post_count_in_category_list": true,
+      "show_post_count_in_category_list": false,
       "show_related_posts": true,
-      "enable_comment_feature": true,
-      "enable_view_on_site_menu": true,
+      "enable_comment_feature": false,
+      "enable_view_on_site_menu": false,
       "enable_exit_dialog": true,
       "enable_rtl_mode": false,
-      "enable_dark_mode_as_default_theme": false
+      "enable_dark_mode_as_default_theme": false,
+      "enable_https_trust_manager": true
    },
    "custom_category": {
       "status": true,
@@ -112,9 +113,9 @@
       ]
    },
    "ads": {
-      "status": true,
+      "status": false,
       "main_ads": "admob",
-      "backup_ads": "google_ad_manager",
+      "backup_ads": "applovin_discovery",
       "ads_unit_id": {
          "admob": {
             "publisher_id": "pub-3940256099942544",
