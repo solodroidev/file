@@ -174,7 +174,7 @@
          "banner_search": true,
          "interstitial_post_list": true,
          "interstitial_post_details": true,
-         "native_post_list": true,
+         "native_post_list": false,
          "native_post_details": true,
          "app_open_ad_on_start": true,
          "app_open_ad_on_resume": true
