@@ -4,7 +4,7 @@
       "redirect_url": ""
    },
    "wordpress": {
-      "site_url": "https://wp-news.solodroid.net/",
+      "site_url": "https://solodroidnews.wordpress.com/",
       "rest_api_provider": "jetpack",
       "posts_per_page": 10,
       "categories_per_page": 24,
@@ -25,15 +25,15 @@
       "show_post_date": true,
       "show_post_count_in_category_list": false,
       "show_related_posts": true,
-      "enable_comment_feature": false,
-      "enable_view_on_site_menu": false,
+      "enable_comment_feature": true,
+      "enable_view_on_site_menu": true,
       "enable_exit_dialog": true,
       "enable_rtl_mode": false,
       "enable_dark_mode_as_default_theme": false,
       "enable_https_trust_manager": true
    },
    "custom_category": {
-      "status": true,
+      "status": false,
       "categories": [
          {
             "id": 11,
@@ -113,9 +113,9 @@
       ]
    },
    "ads": {
-      "status": false,
+      "status": true,
       "main_ads": "admob",
-      "backup_ads": "applovin_discovery",
+      "backup_ads": "none",
       "ads_unit_id": {
          "admob": {
             "publisher_id": "pub-3940256099942544",
