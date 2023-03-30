@@ -16,6 +16,7 @@
       "terms_conditions_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/wordpress/terms.html",
       "publisher_info_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/wordpress/publisher.html",
       "email_feedback_and_report": "report.solodroid@gmail.com",
+      "category_column_conut": 3,
       "post_list_in_large_style": false,
       "show_post_list_header": true,
       "show_post_list_excerpt": true,
@@ -33,7 +34,7 @@
       "enable_https_trust_manager": true
    },
    "custom_category": {
-      "status": false,
+      "status": true,
       "categories": [
          {
             "id": 11,
@@ -174,7 +175,7 @@
          "banner_search": true,
          "interstitial_post_list": true,
          "interstitial_post_details": true,
-         "native_post_list": false,
+         "native_post_list": true,
          "native_post_details": true,
          "app_open_ad_on_start": true,
          "app_open_ad_on_resume": true
