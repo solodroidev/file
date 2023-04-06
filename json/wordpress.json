@@ -116,7 +116,7 @@
    "ads": {
       "status": true,
       "main_ads": "admob",
-      "backup_ads": "none",
+      "backup_ads": "google_ad_manager",
       "ads_unit_id": {
          "admob": {
             "publisher_id": "pub-3940256099942544",
