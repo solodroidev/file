@@ -1,8 +1,8 @@
 {
   "coloring": [
     {
-      "coloring_title": "Unicorn",
-      "child_coloring": [
+      "category": "Unicorn",
+      "images": [
         {
           "image_url": "https://i.pinimg.com/474x/a9/da/74/a9da7480b13bb5d83901ad0d4a4a3179.jpg"
         },
@@ -12,8 +12,8 @@
       ]
     },
     {
-      "coloring_title": "Naruto",
-      "child_coloring": [
+      "category": "Naruto",
+      "images": [
         {
           "image_url": "https://www.bestcoloringpagesforkids.com/wp-content/uploads/2018/04/Print-Anime-Coloring-Pages.jpg"
         },
