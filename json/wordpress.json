@@ -31,7 +31,7 @@
       "enable_exit_dialog": true,
       "enable_rtl_mode": false,
       "enable_dark_mode_as_default_theme": false,
-      "enable_https_trust_manager": true
+      "enable_https_trust_manager": false
    },
    "custom_category": {
       "status": true,
