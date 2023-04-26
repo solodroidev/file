@@ -5,7 +5,7 @@
    },
    "wordpress": {
       "site_url": "https://wp-news.solodroid.net/",
-      "rest_api_provider": "jetpack",
+      "rest_api_provider": "default",
       "posts_per_page": 10,
       "categories_per_page": 24,
       "max_related_posts": 5
@@ -19,7 +19,7 @@
       "category_column_count": 3,
       "post_list_in_large_style": false,
       "show_post_list_header": true,
-      "show_post_list_excerpt": false,
+      "show_post_list_excerpt": true,
       "show_post_list_categories": false,
       "show_post_list_comment": false,
       "show_post_list_line_divider": false,
