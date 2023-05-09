@@ -115,8 +115,8 @@
    },
    "ads": {
       "status": true,
-      "main_ads": "admob",
-      "backup_ads": "google_ad_manager",
+      "main_ads": "google_ad_manager",
+      "backup_ads": "applovin_discovery",
       "ads_unit_id": {
          "admob": {
             "publisher_id": "pub-3940256099942544",
