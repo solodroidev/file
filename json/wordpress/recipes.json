@@ -28,82 +28,37 @@
       "enable_https_trust_manager": false
    },
    "custom_category": {
-      "status": false,
+      "status": true,
       "categories": [
          {
-            "id": 11,
-            "name": "Business",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/business.png"
-         },
-         {
-            "id": 14,
-            "name": "Tourism",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/tourism.png"
-         },
-         {
-            "id": 7,
-            "name": "Politics",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/politics.png"
-         },
-         {
-            "id": 10,
-            "name": "Food",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/food.png"
-         },
-         {
             "id": 6,
-            "name": "News",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/food.png"
-         },
-         {
-            "id": 15,
-            "name": "World",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/world.png"
-         },
-         {
-            "id": 4,
-            "name": "Sports",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/sports.png"
-         },
-         {
-            "id": 8,
-            "name": "Football",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/football.png"
+            "name": "Appetizers",
+            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/recipes/appetizers.jpg"
          },
          {
             "id": 5,
-            "name": "Technology",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/technology.png"
+            "name": "Breakfast",
+            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/recipes/breakfast.jpg"
          },
          {
-            "id": 17,
-            "name": "Android",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/android.png"
+            "id": 8,
+            "name": "Desserts",
+            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/recipes/desserts.jpg"
+         },
+         {
+            "id": 10,
+            "name": "Drink",
+            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/recipes/drink.jpg"
+         },
+         {
+            "id": 7,
+            "name": "Main Dish",
+            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/recipes/main-dish.jpg"
          },
          {
             "id": 3,
-            "name": "Health",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/health.png"
-         },
-         {
-            "id": 12,
-            "name": "Finance",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/finance.png"
-         },
-         {
-            "id": 16,
-            "name": "Entertainment",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/entertainment.png"
-         },
-         {
-            "id": 9,
-            "name": "Gadget",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/gadget.png"
-         },
-         {
-            "id": 13,
-            "name": "Travel",
-            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/news/category/travel.png"
+            "name": "Side Dish",
+            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wordpress/recipes/side-dish.jpg"
          }
       ]
    },
