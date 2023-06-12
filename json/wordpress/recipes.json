@@ -5,7 +5,7 @@
    },
    "wordpress": {
       "site_url": "https://wp-recipes.solodroid.net/",
-      "rest_api_provider": "default",
+      "rest_api_provider": "jetpack",
       "posts_per_page": 12,
       "categories_per_page": 24,
       "max_related_posts": 6
