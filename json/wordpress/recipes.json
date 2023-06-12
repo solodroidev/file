@@ -20,7 +20,7 @@
       "show_post_date": true,
       "show_post_count_in_category_list": true,
       "show_related_posts": true,
-      "enable_comment_feature": true,
+      "enable_comment_feature": false,
       "enable_view_on_site_menu": true,
       "enable_exit_dialog": true,
       "enable_rtl_mode": false,
