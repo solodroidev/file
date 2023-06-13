@@ -17,7 +17,7 @@
       "email_feedback_and_report": "report.solodroid@gmail.com",
       "category_column_count": 3,
       "show_post_list_comment": true,
-      "show_post_date": true,
+      "show_post_date": false,
       "show_post_count_in_category_list": true,
       "show_related_posts": true,
       "enable_comment_feature": false,
