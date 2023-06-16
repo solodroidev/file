@@ -42,7 +42,15 @@
       "url": "https://easyapk.id",
       "url_dark": "",
       "toolbar": true
-    },  
+    },
+    {
+      "name": "Sample Pdf",
+      "type": "url",
+      "icon": "https://img.freepik.com/free-icon/pdf_318-187733.jpg",
+      "url": "https://drive.google.com/file/d/1yOy8qr0JYvfEc1M82DV2o5tyA7UgtTAJ/view",
+      "url_dark": "",
+      "toolbar": true
+    },	  
     {
       "name": "Privacy Policy",
       "type": "assets",
