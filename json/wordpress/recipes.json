@@ -15,8 +15,7 @@
       "privacy_policy_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/wordpress/privacy.html",
       "terms_conditions_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/wordpress/terms.html",
       "email_feedback_and_report": "report.solodroid@gmail.com",
-      "category_column_count": 3,
-      "show_post_list_comment": true,
+      "category_column_count": 2,
       "show_post_date": false,
       "show_post_count_in_category_list": true,
       "show_related_posts": true,
@@ -63,8 +62,8 @@
    },
    "ads": {
       "status": true,
-      "main_ads": "google_ad_manager",
-      "backup_ads": "applovin_discovery",
+      "main_ads": "admob",
+      "backup_ads": "none",
       "ads_unit_id": {
          "admob": {
             "publisher_id": "pub-3940256099942544",
@@ -126,7 +125,7 @@
          "native_exit_dialog": true,
          "native_post_list": true,
          "native_post_details": true,
-         "app_open_ad_on_start": false,
+         "app_open_ad_on_start": true,
          "app_open_ad_on_resume": true
       },
       "global": {
