@@ -44,12 +44,12 @@
       "applovin_native_manual_unit_id": "0",
       "applovin_open_ad_unit_id": "0",
       "applovin_banner_zone_id": "0",
-	  "applovin_banner_mrec_zone_id": "0",
+      "applovin_banner_mrec_zone_id": "0",
       "applovin_interstitial_zone_id": "0",
       "ironsource_app_key": "85460dcd",
       "ironsource_banner_id": "DefaultBanner",
       "ironsource_interstitial_id": "DefaultInterstitial",
-	  "wortise_app_id": "test-app-id",
+      "wortise_app_id": "test-app-id",
       "wortise_banner_id": "test-banner",
       "wortise_interstitial_id": "test-interstitial",
       "wortise_native_id": "test-native",
@@ -113,7 +113,7 @@
       "name": "Lifestyle",
       "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/lifestyle.png"
     },
-	{
+    {
       "id": 9,
       "name": "Android",
       "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/android.png"
@@ -128,7 +128,7 @@
       "content": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/free-fire.html",
       "video": ""
     },
-	{
+    {
       "id": 2,
       "category": "How To, Lifestyle",
       "title": "IKEA Malm Bed Building Tips - How to Build IKEA Furniture",
@@ -168,7 +168,7 @@
       "content": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/chaos-era.html",
       "video": ""
     },
-	{
+    {
       "id": 7,
       "category": "OS, Apps",
       "title": "How to build your own custom Android ROM",
@@ -200,7 +200,7 @@
       "content": "<p>If you&rsquo;re dreading decking the halls with your relatives this year, there are seasonal survival tips that may help you get through the holidays.</p><p>If you feel holidays are more of a hassle than a hallmark movie, you&rsquo;re not alone. According to a recent poll, at least 75 percent of Americans admit they need to escape family this time of year. But there are ways to make the most of the season.</p><p>On average, Americans will stay with family for three and a half days and nearly 40 percent say finding sleeping arrangements is one of the most stressful parts of preparing for out-of-town family.</p><p>Other top concerns are lack of privacy, family getting on your nerves, and drama between family members.</p><p>&ldquo;Most of us want harmony in our families,&rdquo; says Family &amp; Marriage Therapist, Cherlette McCullough.</p><p>One of the most important sanity savers is to plan early, know who&rsquo;s traveling, and what the sleeping arrangements are.</p><p>Set realistic expectations for yourself. When you adjust your mindset to something that&rsquo;s realistic, you&rsquo;re already ahead of the game. It&rsquo;s important to find a balance between being generous and hospitable. Most importantly, keep the lines of communication open with your significant other about how you are feeling.</p><p>&ldquo;If you&rsquo;re feeling that you&rsquo;re not accepted, I would say the first thing too, talk to your mate about that,&rdquo; said McCullough.</p><p>One last tip, try outsourcing some of your big holiday meals. Experts say order in all of the holiday sides and trimmings and just focus on the turkey or ham. That way you spend less time in the kitchen and more time enjoying the season.</p>",
       "video": "https://www.youtube.com/watch?v=c-Rq61sXpV0"
     },
-	{
+    {
       "id": 11,
       "category": "Lifestyle",
       "title": "Your Step-by-Step Guide to Filling Out a Money Order",
