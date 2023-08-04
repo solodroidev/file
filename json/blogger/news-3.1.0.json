@@ -67,7 +67,7 @@
     "native_ad_index": 3,
     "native_ad_style_post_list": "medium",
     "native_ad_style_post_details": "large",
-    "native_ad_style_exit_dialog": "large",
+    "native_ad_style_exit_dialog": "medium",
     "placement": {
       "banner_home": true,
       "banner_post_details": true,
