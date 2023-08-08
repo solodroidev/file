@@ -18,7 +18,7 @@
     "onesignal_app_id": "066cc4d2-ee3a-409d-8d8e-5cba85ca0f0e"
   },
   "ads": {
-    "ad_status": true,
+    "ad_status": false,
     "main_ads": "admob",
     "backup_ads": "fan",
     "admob_publisher_id": "pub-3940256099942544",
