@@ -13,7 +13,7 @@
     "custom_label_list": true
   },
   "ads": {
-    "ad_status": false,
+    "ad_status": true,
     "main_ads": "admob",
     "backup_ads": "none",
     "admob_banner_id": "ca-app-pub-3940256099942544/6300978111",
