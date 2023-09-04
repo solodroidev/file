@@ -42,7 +42,7 @@
       "url": "https://easyapk.id",
       "url_dark": "",
       "toolbar": true
-    }, 
+    },
     {
       "name": "Privacy Policy",
       "type": "assets",
@@ -55,8 +55,8 @@
   "ads": [
     {
       "ad_status": 1,
-      "main_ad": "google_ad_manager",
-      "backup_ad": "none",
+      "main_ad": "admob",
+      "backup_ad": "fan",
       "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
       "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
       "admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
@@ -85,8 +85,8 @@
       "native_ad_style": "medium",
       "show_banner_ad": true,
       "show_interstitial_ad": true,
-			"show_native_ad_on_drawer_menu": true,
-			"show_native_ad_on_exit_dialog": true,
+      "show_native_ad_on_drawer_menu": true,
+      "show_native_ad_on_exit_dialog": true,
       "show_open_ad_on_app_start": true,
       "show_open_ad_on_app_resume": true
     }
@@ -103,6 +103,18 @@
       "title": "Stream Json",
       "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/stream/thumbnail.png",
       "url": "https://aliendro.id/solodroid-stream-json-live-tv-video-streaming-197"
+    },
+    {
+      "id": 3,
+      "title": "WebView Json",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/thumbnail.png",
+      "url": "https://aliendro.id/solodroid-webview-json-android-webview-app-207"
+    },
+    {
+      "id": 4,
+      "title": "Wallpaper Json",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/thumbnail.png",
+      "url": "https://aliendro.id/solodroid-wallpaper-json-android-wallpaper-app-212"
     }
   ]
 }
