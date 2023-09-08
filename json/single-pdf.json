@@ -2,7 +2,7 @@
 	"app": {
 		"status": true,
 		"redirect_url": "",
-		"privacy_policy_url": "https://sites.google.com/view/blogger-ebook-app-privacy",
+		"privacy_policy_url": "https://sites.google.com/view/single-ebook-privacy-policy",
 		"pdf_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/pdf/android-developer-fundamentals-course-practicals-idn.pdf",
 		"description": "<p>Android Developer Fundamentals is a training course created by the Google Developer Training team. You learn basic Android programming concepts and build a variety of apps, starting with Hello World and working your way up to apps that use content providers and loaders.</p>",
 		"allow_save_book_in_storage": true,
