@@ -1,112 +1,138 @@
 {
-	"app": {
-		"status": true,
-		"redirect_url": "",
-		"privacy_policy_url": "https://sites.google.com/view/single-ebook-privacy-policy",
-		"pdf_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/pdf/android-developer-fundamentals-course-practicals-idn.pdf",
-		"description": "<p>Android Developer Fundamentals is a training course created by the Google Developer Training team. You learn basic Android programming concepts and build a variety of apps, starting with Hello World and working your way up to apps that use content providers and loaders.</p>",
-		"allow_save_book_in_storage": true,
-		"swipe_horizontal_reading_book": true,
-		"show_scroll_handle_reading_book": true,
-		"custom_table_of_contents": true,
-		"enable_app_protection": false,
-		"base64_license_key": ""
-	},
-	"ads": {
-		"ad_status": true,
-		"main_ads": "admob",
-		"backup_ads": "fan",
-		"admob_banner_id": "ca-app-pub-3940256099942544/6300978111",
-		"admob_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
-		"admob_native_id": "ca-app-pub-3940256099942544/2247696110",
-		"admob_app_open_id": "ca-app-pub-3940256099942544/3419835294",
-		"ad_manager_banner_id": "/6499/example/banner",
-		"ad_manager_interstitial_id": "/6499/example/interstitial",
-		"ad_manager_native_id": "/6499/example/native",
-		"ad_manager_app_open_id": "/6499/example/app-open",
-		"fan_banner_id": "IMG_16_9_APP_INSTALL#1102290040176998_1102321626840506",
-		"fan_interstitial_id": "IMG_16_9_APP_INSTALL#1102290040176998_1103218190084183",
-		"fan_native_id": "IMG_16_9_APP_INSTALL#1102290040176998_1142394442833224",
-		"startapp_app_id": "0",
-		"unity_game_id": "4089993",
-		"unity_banner_id": "banner",
-		"unity_interstitial_id": "video",
-		"applovin_max_banner_id": "0",
-		"applovin_max_interstitial_id": "0",
-		"applovin_max_native_id": "0",
-		"applovin_max_app_open_id": "0",
-		"applovin_discovery_banner_zone_id": "0",
-		"applovin_discovery_interstitial_zone_id": "0",
-		"ironsource_app_key": "85460dcd",
-		"ironsource_banner_id": "DefaultBanner",
-		"ironsource_interstitial_id": "DefaultInterstitial",
-		"wortise_app_id": "test-app-id",
-		"wortise_banner_id": "test-banner",
-		"wortise_interstitial_id": "test-interstitial",
-		"wortise_native_id": "test-native",
-		"wortise_app_open_id": "test-app-open",
-		"interstitial_ad_interval": 3
-	},
-	"table_of_contents": [
-		{
-			"page_title": "Daftar Isi",
-			"page_number": 2
-		},
-		{
-			"page_title": "Pengantar",
-			"page_number": 4
-		},
-		{
-			"page_title": "Membangun Aplikasi Pertama Anda",
-			"page_number": 5
-		},
-		{
-			"page_title": "Aktivitas",
-			"page_number": 92
-		},
-		{
-			"page_title": "Pengujian",
-			"page_number": 143
-		},
-		{
-			"page_title": "Interaksi Pengguna",
-			"page_number": 175
-		},
-		{
-			"page_title": "Pengalaman Pengguna",
-			"page_number": 261
-		},
-		{
-			"page_title": "Menguji UI Anda",
-			"page_number": 303
-		},
-		{
-			"page_title": "Tugas dan Latar Belakang",
-			"page_number": 358
-		},
-		{
-			"page_title": "Notifikasi",
-			"page_number": 306
-		},
-		{
-			"page_title": "Preferensi dan Setelan",
-			"page_number": 400
-		},
-		{
-			"page_title": "Berbagi Data dengan Penyedia Materi",
-			"page_number": 439
-		},
-		{
-			"page_title": "Memuat Data Menggunakan Loader",
-			"page_number": 477
-		},
-		{
-			"page_title": "Pekerjaan Rumah",
-			"page_number": 489
-		},
-		{
-			"page_title": "Utilitas",
-			"page_number": 545
-		}
-	]
+    "app": {
+        "status": true,
+        "redirect_url": "",
+        "privacy_policy_url": "https://sites.google.com/view/single-ebook-privacy-policy",
+        "pdf_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/pdf/android-developer-fundamentals-course-practicals-idn.pdf",
+        "description": "<p>Android Developer Fundamentals is a training course created by the Google Developer Training team. You learn basic Android programming concepts and build a variety of apps, starting with Hello World and working your way up to apps that use content providers and loaders.</p>",
+        "allow_save_book_in_storage": true,
+        "swipe_horizontal_reading_book": true,
+        "show_scroll_handle_reading_book": true,
+        "custom_table_of_contents": true,
+        "enable_app_protection": false,
+        "base64_license_key": ""
+    },
+    "ads": {
+        "ad_status": true,
+        "main_ads": "admob",
+        "backup_ads": "fan",
+        "admob_banner_id": "ca-app-pub-3940256099942544/6300978111",
+        "admob_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+        "admob_native_id": "ca-app-pub-3940256099942544/2247696110",
+        "admob_app_open_id": "ca-app-pub-3940256099942544/3419835294",
+        "ad_manager_banner_id": "/6499/example/banner",
+        "ad_manager_interstitial_id": "/6499/example/interstitial",
+        "ad_manager_native_id": "/6499/example/native",
+        "ad_manager_app_open_id": "/6499/example/app-open",
+        "fan_banner_id": "IMG_16_9_APP_INSTALL#1102290040176998_1102321626840506",
+        "fan_interstitial_id": "IMG_16_9_APP_INSTALL#1102290040176998_1103218190084183",
+        "fan_native_id": "IMG_16_9_APP_INSTALL#1102290040176998_1142394442833224",
+        "startapp_app_id": "0",
+        "unity_game_id": "4089993",
+        "unity_banner_id": "banner",
+        "unity_interstitial_id": "video",
+        "applovin_max_banner_id": "0",
+        "applovin_max_interstitial_id": "0",
+        "applovin_max_native_id": "0",
+        "applovin_max_app_open_id": "0",
+        "applovin_discovery_banner_zone_id": "0",
+        "applovin_discovery_interstitial_zone_id": "0",
+        "ironsource_app_key": "85460dcd",
+        "ironsource_banner_id": "DefaultBanner",
+        "ironsource_interstitial_id": "DefaultInterstitial",
+        "wortise_app_id": "test-app-id",
+        "wortise_banner_id": "test-banner",
+        "wortise_interstitial_id": "test-interstitial",
+        "wortise_native_id": "test-native",
+        "wortise_app_open_id": "test-app-open",
+        "interstitial_ad_interval": 3
+    },
+    "table_of_contents": [
+        {
+            "page_title": "Daftar Isi",
+            "page_number": 2
+        },
+        {
+            "page_title": "Pengantar",
+            "page_number": 4
+        },
+        {
+            "page_title": "Membangun Aplikasi Pertama Anda",
+            "page_number": 5
+        },
+        {
+            "page_title": "Aktivitas",
+            "page_number": 92
+        },
+        {
+            "page_title": "Pengujian",
+            "page_number": 143
+        },
+        {
+            "page_title": "Interaksi Pengguna",
+            "page_number": 175
+        },
+        {
+            "page_title": "Pengalaman Pengguna",
+            "page_number": 261
+        },
+        {
+            "page_title": "Menguji UI Anda",
+            "page_number": 303
+        },
+        {
+            "page_title": "Tugas dan Latar Belakang",
+            "page_number": 358
+        },
+        {
+            "page_title": "Notifikasi",
+            "page_number": 306
+        },
+        {
+            "page_title": "Preferensi dan Setelan",
+            "page_number": 400
+        },
+        {
+            "page_title": "Berbagi Data dengan Penyedia Materi",
+            "page_number": 439
+        },
+        {
+            "page_title": "Memuat Data Menggunakan Loader",
+            "page_number": 477
+        },
+        {
+            "page_title": "Pekerjaan Rumah",
+            "page_number": 489
+        },
+        {
+            "page_title": "Utilitas",
+            "page_number": 545
+        }
+    ],
+    "more_apps": [
+        {
+            "id": 1,
+            "title": "Guide Json",
+            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/thumbnail.png",
+            "url": "https://aliendro.id/solodroid-guide-json-android-news-app-191"
+        },
+        {
+            "id": 2,
+            "title": "Stream Json",
+            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/stream/thumbnail.png",
+            "url": "https://aliendro.id/solodroid-stream-json-live-tv-video-streaming-197"
+        },
+        {
+            "id": 3,
+            "title": "WebView Json",
+            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/thumbnail.png",
+            "url": "https://aliendro.id/solodroid-webview-json-android-webview-app-207"
+        },
+        {
+            "id": 4,
+            "title": "Wallpaper Json",
+            "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/thumbnail.png",
+            "url": "https://aliendro.id/solodroid-wallpaper-json-android-wallpaper-app-212"
+        }
+    ]
 }
