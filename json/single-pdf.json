@@ -14,7 +14,7 @@
     },
     "ads": {
         "ad_status": true,
-        "main_ads": "admob",
+        "main_ads": "google_ad_manager",
         "backup_ads": "fan",
         "admob_banner_id": "ca-app-pub-3940256099942544/6300978111",
         "admob_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
