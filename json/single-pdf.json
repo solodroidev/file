@@ -8,7 +8,9 @@
 		"allow_save_book_in_storage": true,
 		"swipe_horizontal_reading_book": true,
 		"show_scroll_handle_reading_book": true,
-		"custom_table_of_contents": true
+		"custom_table_of_contents": true,
+		"enable_app_protection": false,
+		"base64_license_key": ""
 	},
 	"ads": {
 		"ad_status": true,
