@@ -53,7 +53,7 @@
     "interstitial_ad_interval": 3,
     "native_ad_interval": 10,
     "native_ad_index": 7,
-    "native_ad_style_audio_list": "large",
+    "native_ad_style_audio_list": "medium",
     "native_ad_style_exit_dialog": "medium",
     "placement": {
       "banner_home": true,
