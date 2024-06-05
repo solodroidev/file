@@ -1,0 +1,235 @@
+{
+  "app": {
+    "status": 1,
+    "report_email": "help.solodroid@gmail.com",
+    "song_metadata": true,
+    "image_album_art": true,
+    "blur_radio_background": false,
+    "privacy_policy_url": "https://sites.google.com/view/your-radio-app-privacy",
+    "more_apps_url": "https://codecanyon.net/user/solodroid/portfolio",
+    "redirect_url": ""
+  },
+  "ads": {
+    "ad_status": true,
+    "main_ads": "admob",
+    "backup_ads": "alien_ads",
+    "admob_banner_id": "ca-app-pub-3940256099942544/6300978111",
+    "admob_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+    "admob_native_id": "ca-app-pub-3940256099942544/2247696110",
+    "admob_app_open_id": "ca-app-pub-3940256099942544/9257395921",
+    "ad_manager_banner_id": "/6499/example/banner",
+    "ad_manager_interstitial_id": "/6499/example/interstitial",
+    "ad_manager_native_id": "/6499/example/native",
+    "ad_manager_app_open_id": "/6499/example/app-open",
+    "alien_ads_banner_unit_id": "testing",
+    "alien_ads_interstitial_unit_id": "testing",
+    "alien_ads_native_unit_id": "testing",
+    "fan_banner_id": "YOUR_PLACEMENT_ID",
+    "fan_interstitial_id": "YOUR_PLACEMENT_ID",
+    "fan_native_id": "YOUR_PLACEMENT_ID",
+    "startapp_app_id": "0",
+    "unity_game_id": "4089993",
+    "unity_banner_id": "banner",
+    "unity_interstitial_id": "video",
+    "applovin_max_banner_id": "0",
+    "applovin_max_interstitial_id": "0",
+    "applovin_max_native_manual_id": "0",
+    "applovin_max_app_open_id": "0",
+    "applovin_discovery_banner_zone_id": "0",
+    "applovin_discovery_banner_mrec_zone_id": "0",
+    "applovin_discovery_interstitial_zone_id": "0",
+    "ironsource_app_key": "85460dcd",
+    "ironsource_banner_id": "DefaultBanner",
+    "ironsource_interstitial_id": "DefaultInterstitial",
+    "wortise_app_id": "test-app-id",
+    "wortise_banner_id": "test-banner",
+    "wortise_interstitial_id": "test-interstitial",
+    "wortise_native_id": "test-native",
+    "wortise_app_open_id": "test-app-open",
+    "interstitial_ad_interval": 3,
+    "native_ad_interval": 10,
+    "native_ad_index": 7,
+    "native_ad_style_audio_list": "medium",
+    "native_ad_style_exit_dialog": "medium",
+    "placement": {
+      "banner_home": true,
+      "interstitial_audio_list": true,
+      "native_ad_audio_list": true,
+      "native_ad_exit_dialog": true,
+      "app_open_ad_on_start": true,
+      "app_open_ad_on_resume": true
+    }
+  },
+  "categories": [
+    {
+      "title": "Culture",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/blogger/radio/category/culture.jpg"
+    },
+    {
+      "title": "Education",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/blogger/radio/category/education.jpg"
+    },
+    {
+      "title": "Entertainment",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/blogger/radio/category/entertainment.jpg"
+    },
+    {
+      "title": "Misc",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/blogger/radio/category/misc.jpg"
+    },
+    {
+      "title": "National",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/blogger/radio/category/national.jpg"
+    },
+    {
+      "title": "World",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/blogger/radio/category/world.jpg"
+    }
+  ],
+  "radios": [
+    {
+      "id": 1,
+      "title": "Smart FM Indonesia",
+      "category": "National",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQST9U-yvCuibYbctrAAuuv5ZimalyLzHDfWOg0qT2Y-cUxGu8MqubkNz6-q6ZTuWGEMPPuIlLZDClifLGfr2Uz7qGNrvBW5w-fSzXYNKonKrGOD7ZXTQQVA7yZiUCXgMxb3zTmXFhxFHkihD2jfs64kVU0h6IhXIxx_Oq9muEzWPhlmakBLdqAMjs/s1600/1579-2021-08-26.jpg",
+      "description": "<p>Smart FM is a radio station networked in 10 business cities in Indonesia, namely Jakarta, Yogyakarta, Surabaya, Medan, Palembang, Pekanbaru, Banjarmasin, Balikpapan, Makassar and Manado which was born from concerns about the lack of content that can increase awareness of the importance of managing life. , personality and also all aspects of business and financial to be able to further improve a better life. With the tagline of business radio and inspiration, SmartFM is here to answer this need.</p>",
+      "url": "http://144.217.83.175:8000",
+      "type": "radio"
+    },
+    {
+      "id": 2,
+      "title": "Radio Romania",
+      "category": "World",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhncBzsRJM2RvoxqyEU4oZxZqegD1netevIEBXjaIwmZTGnPqZKDo0wTXc6j00YAOubLmxFxjJHpKmRjU_PZKFG6cmbqgf7ZyczH84vFQBcMMQMzMo9WgoBBa1zUlZuTxtR8yGVOuw28Zae2507_CVHAS-OO-6rBHuyFm7O0NpvIEsrM-Es9GWzSfXr/s1600/3590-2021-06-19.jpg",
+      "description": "<p>Radio Romania International is a Romanian radio station owned by the Romanian public broadcaster Societatea Romana de Radiodifuziune (SRR, Romanian National Public Radio), broadcasting abroad. Before 1989, the station was known as Radio Bucharest.</p>",
+      "url": "http://mscp1.gazduireradio.ro:1130/stream",
+      "type": "radio"
+    },
+    {
+      "id": 3,
+      "title": "Cool Fahrenheit 93",
+      "category": "Misc",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikExNAESxAO6pwTb2ZZ-cOszwBFziMfKRwvb8fLtpdXv4qePFj6jAnzOh87gipqwH1YNbiKgSI9kM5Pz9QZ7DZc3qrr1O2lHmK5htR8jnTy-iMTG7qlqhPtFt2UhEOD96O-I4Z5rom7gm9imnv2X2lfVjCq1qWmbWzOv3DtjCxM8XEtMa-YwqTCNJe/s1600/5640-2021-05-20.jpg",
+      "description": "<p>COOL fahrenheit 93 - The No.1 radio for Easy Listening Music freezes your mind!</p>",
+      "url": "http://103.253.135.44:5004",
+      "type": "radio"
+    },
+    {
+      "id": 4,
+      "title": "Joy Hits",
+      "category": "Culture",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1QtGQJTW1tSzkCYmuAYBAnoBOI4l6loRSjWAudzz8M5RxzgIYjXyPfSxATT3425ANkEr-hXvOw0Gh_2XwwIpw6QeQwdEwtkG2pmVtSvhepP8jDMThWhSyvvjklVMSSHr-jA2bIupaOfs3Hm6mFQHV_3YezKOFOysa70ynfRG6_FwnqzgURgzvydZL/s1600/8434-2021-05-18.jpg",
+      "description": "<p>Joy Hits is a British radio station that broadcasts a mix of pop and dance. It features CD-quality FLAC lossless streaming, 128 and 256 kbps MP3 streaming, and 64 kbps AAC streaming, as well as an Android app. There are also links to radio aggregators such as onlineradiobox, mytuner-radio and UKRadioLive.</p>",
+      "url": "http://51.210.241.217:8880/joyhits.mp3",
+      "type": "radio"
+    },
+    {
+      "id": 5,
+      "title": "ANTENA1 - 94,7 FM",
+      "category": "World",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOod3VR3KZBSXjy0oYZWjsVlDQ85X-KcHT4NRhrWsnk_XauVgJ_Mv5oP3ekaDLBmyhDawbF0AP_ai4OKDOF-fAdkv_H7rSAwWkjF5PkZxRNaD1PPD_ZI60k8JIj4uvYVEwHazjHr_v0xwrfxz3yLy6NDBVDmbUbJiW5T_Iws4O5CaeZhkKA8U83SsJ/s1600/5778-2021-05-18.jpg",
+      "description": "<p>ANTENA1 - 94,7 FM is the no. 1 of good entertainment. Not only a varied musical composition but also talks and researches are on the schedule of Rádio Antena 1. It is presented in Portuguese.</p>",
+      "url": "http://audio.livecastnet.com:1890/stream",
+      "type": "radio"
+    },
+    {
+      "id": 6,
+      "title": "Dance Wave Retro",
+      "category": "World",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsv0RnUPnnr5X_A9_MM9PuG4C12lkbPX2Z9UEtsSal1ntd7mG2I6mFM1qB_27o0xX6FtAzOt7_0JFBpC4NQCisR7rFA54azhVUVtogXFTuEROc4tSCluR7pUvZJj5tqFf4iQVDbc2IvkPW1OlLE1SdbhEWvJke0lMG5T2YjnojgtQU0BOaGQ3e1mJs/s1600/8333-2021-05-18.jpg",
+      "description": "<p>Dance Wave Retro is an Internet radio station focusing on dance, mainly electronic music such as dance, house, deep house, and trance.</p><p>Our mission is not to follow forced trends, but to find really great new electronic music and bring it to those who may never have access to it.</p><p>We are global, independent, not-for-profit, and we do this only because we love the music we play, but due to running costs, we'd love to accept any support or donations.</p>",
+      "url": "http://stream.dancewave.online:8080/dance.mp3",
+      "type": "radio"
+    },
+    {
+      "id": 7,
+      "title": "NG Radio Indonesia",
+      "category": "National",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1XNEwibUSzrLPxjJoqkeluZyLhI-dI1MxYmUl-Q31Av7fM-uWr5POU0Qt9alXIVcI2vFXzC4eax096_7jldAyXlT-Lr06mbpBezrMIDaDMljo_02zN2Gr7YBWdjCTLjmp42wB95pMmmDgE_4zJuYmd2E6yE2tDvLVn3Db62ntskofMt5E9k9gi2Zx/s1600/8442-2020-07-07.jpg",
+      "description": "<p>NG Radio Indonesia is the number one radio streaming station for Indonesia's young generation. Listen to Indonesian and foreign pop hits songs 24 hours non-stop, through NG Radio Indonesia streaming. Playing the best choice of music for young people with various genres of Pop, Jazz, Ska, Hits, Indie, RNB and more.</p><p>NG Radio Indonesia Live Streaming is the choice of entertainment media with a full presentation of the best selected Indonesian pop songs. A full day without stopping our ears are pampered with music from the 80s, 90s and new hits, so that we can enjoy and relax our activities.</p>",
+      "url": "http://live.serverstreaming.net:8000/max-radio",
+      "type": "radio"
+    },
+    {
+      "id": 8,
+      "title": "Radio 2.0 - Valli di Bergamo",
+      "category": "World",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhqYcKZ9QGkuYuis1oKs1b8_pA6QMb-sNhL7UbdENLduEk9wr32QyzEfyc2FiBRCLIiwN1D8bYMXpH8EhKTeODrWwJ2anSBP9iFxuNJKRmZS94s_HhPkrLpBz94Q8JWgpPGWQYYVaG71QED9iJMCq3X7vqXTF-yGz1JYOH2toUOj7YjpaC15TYeK6Y/s1600/0894-2019-05-03.jpg",
+      "description": "<p>Radio 2.0 - Valli Di Bergamo is an online music radio station. This radio station has been broadcasting on air and online from Lombardia, Italy. This radio promotes various kinds of latest flac, pop rock, bergamo, etc., We are streaming music and programs both in online and broadcasting 24 hours a day.</p>",
+      "url": "http://46.252.154.133:8080",
+      "type": "radio"
+    },
+    {
+      "id": 9,
+      "title": "V Radio FM Jakarta",
+      "category": "National",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4Dw4bGvCiiZf_uX-4EGMRgLS07EWIgr2Zyx1SaoRpA40pYyWQCqJgZkke87jqFxTQ_M0Kcn9_BntQhdreWPkSqWaoqrGiP_GL-Yi9TmKpEbRSq2rrQhNPHiaB7h54Vc5rzoTC5zo-vainzBkvAyC37ADAVIQjZWE155sBhpk9ql6PYYOfVNolvbW5/s1600/7913-2017-11-07.jpg",
+      "description": "<p>V Radio FM Jakarta is a network of radio stations in Indonesia that was established in 2011 and is under the auspices of MNC Radio Networks owned by MNC. V Radio broadcasts on a frequency of 106.6 FM for the Jakarta and surrounding areas. Since its launch on February 14, 2011 V Radio has continued to attract female listeners between the ages of 25 and 38.</p>",
+      "url": "http://193.0.98.66:8005",
+      "type": "radio"
+    },
+    {
+      "id": 10,
+      "title": "Suara Madu FM",
+      "category": "Entertainment",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYrfein2TiyYf4VF2QwfIQgjR3Ty78A06wi0NsJJnPQvB4ueJnm2OvRjR1WMDJae--BKwT2bRcSWWqY3xjuv89myn4vmZKlz3lRDExX3lfcNQohwf4_cCvZXCoYqu8at2nqHSQbkzOT78t_Dkz5X5Nqvz6N30TQDiUmta0oWLYIX-tBch32PfeiPHz/s320/0253-2015-11-15.jpg",
+      "description": "<p>Suara Madu FM is the first religious radio in Pasuruan. They are present in packages and programs that promote religious nuances, present information and development insights and provide education that is expected to make a maximum contribution to East Java and the surrounding community. With a range that includes FM beam vBulletin, Kediri, Psychology, Ponorogoo and surrounding areas.</p>",
+      "url": "http://79.172.214.45:35000/live.mp3",
+      "type": "radio"
+    },
+    {
+      "id": 11,
+      "title": "Radio Zelengrad",
+      "category": "Misc",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS45z3R0EHPTd7DUoX96P_KFI65CvOvLHg_5hf8LtIB2c7wiFYjLbgsXluReVcC0hXTHa3LSp08mIWvGSk7sXi35yLOW-SuAGgHSXG__Ul_iOwHF_d_rdEBfmrSrTYCG7PsMUZxrvE29SESfR4ROgtC5ZwMH_my-2HnpHEjS8HHmvJdbB1tL6UGf6S/s320/8896-2015-11-15.jpg",
+      "description": "<p>Radio Zelengrad is a radio that has a large number of loyal listeners, therefore we offer you the opportunity to advertise on our radio station. The radio is a friend of all of us, wherever we are, on the way to home, school or work, the development of technology has made it possible to have your favorite radio with you and to enjoy your favorite music at any time.</p>",
+      "url": "http://51.222.8.101:8000/stream",
+      "type": "radio"
+    },
+    {
+      "id": 12,
+      "title": "Radio Rodja",
+      "category": "Education",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUDKWX1smastpdw1YH7-k3TXhQxNQBAVFcrRK2tW45kWBlBbiC1tD5VL2ca0XKupsxuoX9nbdx1Osbx_vbvtptaRlHcKRkA9rD2U-Pb3-FW_tb94i7g2h2rJiIrhLEitm0jug0mJGYFvk39D4Ag5zIFHzzHa8nVNe9Kx64y69brDDht3Vln4XavD2c/s1600/1593-2015-11-15.jpg",
+      "description": "<p>Radio Rodja presents broadcasts of recitations of the Qur'an Al-Karim, the hadiths of the Prophet sallallaahu 'Alaihi wa Sallam, Islamic studies of Ahlus Sunnah wal Jama'ah, as well as advice from the scholars of Ahlus Sunnah, which, God willing, is in accordance with the understanding of the companions of the Prophet ridwanallahu ' anhum jami'an.</p><p>Currently, Rodja's broadcasts can be enjoyed via radio frequency 756 AM (Jabodetabek and Rodja relay stations in Bandung, Berau, Lampung, Pontianak, and Tanjung Pinang), radio streaming, radio via Flexi (Flexi Radio), satellite radio and salelit TV (requires satellite dish), and streaming TV. Of course, for streaming radio and TV streaming, listeners and viewers can enjoy it via smartphones.</p>",
+      "url": "https://radioislamindonesia.com/rodja.mp3",
+      "type": "radio"
+    },
+    {
+      "id": 13,
+      "title": "Radio Niagara",
+      "category": "Misc",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD5aGjiK9MhNbDEiTrfP1FVtR9ERwNrJPf1uIizGYBBLrkYtbZlNU9vbqkkJ4P1_JfzVSR4etyiqhCDXk2QSBeLzs52K9hC2PamowsnodyvTPM1xcR-b_8sT3Y5ghm6tBEvfFvpsgIiu9-VpeSkCs7Cgm7WE9Xl6lQ-_Vb2TtaWaME3KWuZi89TQVD/s1600/5962-2015-11-15.jpg",
+      "description": "<p>Radio Niagara is a radio station in Niagara Falls, Ontario, Canada, for the Greater Niagara Falls area, including the Niagara Region of Ontario and Niagara County, New York. The station airs on 105.1 FM and operates a popular adult contemporary format under the brand 105.1 The River.</p>",
+      "url": "http://ecast.myautodj.com:1240/stream",
+      "type": "radio"
+    },
+    {
+      "id": 14,
+      "title": "Radio Rama FM",
+      "category": "Entertainment",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKhLk1ymKLW8XDHNyyP_0dwyg0GQIF7njHZUkzkXK0fNvr70Jo8qxs3ilQtokcG6VBNToUuSc5t9c0NlPFNKsz95Xb-KsdeWEi_cJroRBNTXG2GIHTItsyLz1GAQWU8kGO9tlL6oV-v1wInR8xkLPS15V6oihrHm6srCP6SVc8-VPXrQ3ixZA4K0DA/s1600/3757-2015-11-15.jpg",
+      "description": "<p>Radio Rama FM Bandung was established and has been broadcasting since 1972 under the company name PT. Radio Greetings Rama Dwihasta.</p><p>This radio has realized this principle and has proven to be successful in packaging its program, which has been very well received by the public with the content of entertainment programs, informational news, cultural arts, religion, and other activities.</p><p>Radio Rama 104.7 FM is part of the Rama Group, and is located in Bandung, West Java. This radio displays local culture and music from various genres, including dangdut, regional music, to Indonesian pop.</p>",
+      "url": "http://ec2.yesstreaming.net:1710/stream",
+      "type": "radio"
+    },
+    {
+      "id": 15,
+      "title": "Radio Jaca",
+      "category": "Misc",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw-b3t9Gb84jb_WWC9oBVOauqjgiWNgrJm2p0xqXZElbU-sIsV52xEA5iN2FGGk6PMXN0CX1Qmv3MF6fsuOtosMW79Eb7MYdDbT7-lxu6cpvGODjwpENvFHPtVTpEznV0GyQNROA65FFNtkoHfwjJBWxVHUM6wXtDEFhF8rTlAmIEmignrd6OznGjV/s1600/4548-2015-11-15.jpg",
+      "description": "<p>Radio Jaca was opened with the aim of socializing with good music and spreading our tradition, the radio was founded for all nations and generations, music for everyone's soul - fun, folk, folk</p>",
+      "url": "http://live.radiolyngdal.com/rly_hq",
+      "type": "radio"
+    },
+    {
+      "id": 16,
+      "title": "Maestro Bandung FM",
+      "category": "Entertainment",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMlBI9p5kpNKHva8tmhMarZCWUIPeV7BfUIXQssQ1mPFQjaZTcnA7EtekLCOMpyrVl7NJvE8l70b4QL_Vwvxvyw324nPHi1oUH5JugCEyo8eLWsoqbjk4AOM4S4WCsFj8r5ediVwgWyKDixG5B8yyMrecdYqzVAr_9w8-xEip2caLiLDzw86C3rNIf/s1600/8841-2015-11-15.jpg",
+      "description": "<p>Maestro Bandung FM is a radio broadcasting based on music and information that has been established since 1969 in the city of Bandung.</p><p>We believe that a prosperous society begins with individuals who know and practice the true values of love and truth. Therefore, our vision is to be the BEST medium in conveying LOVE &amp; TRUTH to every listener's heart.&nbsp;</p>",
+      "url": "http://192.99.170.8:5756",
+      "type": "radio"
+    }
+  ]
+}
