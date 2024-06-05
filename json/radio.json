@@ -1,6 +1,6 @@
 {
   "app": {
-    "status": 1,
+    "status": true,
     "report_email": "help.solodroid@gmail.com",
     "song_metadata": true,
     "image_album_art": true,
